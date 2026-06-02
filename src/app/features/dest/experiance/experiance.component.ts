@@ -6,6 +6,4 @@ import { Component } from '@angular/core';
   templateUrl: './experiance.component.html',
   styleUrl: './experiance.component.css',
 })
-export class ExperianceComponent {
-  activeTab = 'animals';
-}
+export class ExperianceComponent {}

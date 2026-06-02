@@ -1,1 +1,124 @@
-<p>experiance works!</p>
+<section
+  class="relative py-20 lg:py-24 bg-cover bg-fixed bg-center bg-no-repeat"
+  style="background-image: url('/assets/images/elderies.png')"
+>
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Title -->
+    <div class="text-center mb-10">
+      <span class="uppercase tracking-[4px] text-white/80 text-sm font-medium">
+        Real Experiences
+      </span>
+
+      <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4">
+        Traveller Experiences
+      </h2>
+    </div>
+
+    <!-- Tabs -->
+    <div class="flex flex-wrap justify-center gap-4 md:gap-8 mb-10">
+      <button
+        (click)="activeTab = 'animals'"
+        [class.border-white]="activeTab === 'animals'"
+        class="text-white text-sm md:text-base border-b-2 border-transparent pb-2 transition-all"
+      >
+        Animal Encounters
+      </button>
+
+      <button
+        (click)="activeTab = 'cruises'"
+        [class.border-white]="activeTab === 'cruises'"
+        class="text-white text-sm md:text-base border-b-2 border-transparent pb-2 transition-all"
+      >
+        Cruises
+      </button>
+
+      <button
+        (click)="activeTab = 'family'"
+        [class.border-white]="activeTab === 'family'"
+        class="text-white text-sm md:text-base border-b-2 border-transparent pb-2 transition-all"
+      >
+        Family Travel
+      </button>
+
+      <button
+        (click)="activeTab = 'food'"
+        [class.border-white]="activeTab === 'food'"
+        class="text-white text-sm md:text-base border-b-2 border-transparent pb-2 transition-all"
+      >
+        Food & Drink
+      </button>
+    </div>
+
+    <!-- WHITE CARD AREA -->
+    <div class="bg-white rounded-3xl shadow-2xl p-6 md:p-10 lg:p-12 min-h-[450px]">
+      <!-- EMPTY -->
+      @if (activeTab === 'animals') {
+        <div class="text-center mb-12">
+          <span class="uppercase tracking-[4px] text-sm text-[#d89d2e] font-medium">
+            Animal Encounters
+          </span>
+
+          <h2 class="text-4xl md:text-5xl font-bold mt-4">Wild Moments & Real Encounters</h2>
+
+          <p class="max-w-3xl mx-auto text-gray-600 mt-5">
+            Stories of safaris, marine life, wildlife parks, and unforgettable close encounters.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+          <!-- CARD -->
+          <div class="group relative overflow-hidden rounded-[32px] aspect-[4/5] cursor-pointer">
+            <img
+              src="/assets/images/image copy.png"
+              class="w-full h-full object-cover transition duration-700 group-hover:scale-110"
+            />
+
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"
+            ></div>
+
+            <div
+              class="absolute inset-x-0 bottom-0 p-8 translate-y-24 group-hover:translate-y-0 transition-all duration-500"
+            >
+              <span
+                class="inline-block mb-4 px-3 py-1 rounded-full bg-[#d89d2e] text-white text-xs uppercase tracking-wider"
+              >
+                Wildlife Story
+              </span>
+
+              <h3 class="text-2xl font-bold text-white mb-3">Safari in the Serengeti</h3>
+
+              <p class="text-white/80 text-sm mb-5">
+                A real journey through Africa’s wild landscapes and unforgettable animal encounters.
+              </p>
+
+              <button
+                class="inline-flex items-center gap-3 bg-white text-black px-5 py-3 rounded-full font-medium hover:bg-[#d89d2e] hover:text-white transition"
+              >
+                Read Experience →
+              </button>
+            </div>
+          </div>
+        </div>
+      }
+
+      <!-- CRUISES -->
+      @else if (activeTab === 'cruises') {
+        <div class="text-center text-gray-600">Cruise experiences content goes here.</div>
+      }
+
+      <!-- FAMILY -->
+      @else if (activeTab === 'family') {
+        <div class="text-center text-gray-600">Family travel experiences content goes here.</div>
+      }
+
+      <!-- FOOD -->
+      @else if (activeTab === 'food') {
+        <div class="text-center text-gray-600">Food & drink experiences content goes here.</div>
+      }
+    </div>
+  </div>
+</section>
