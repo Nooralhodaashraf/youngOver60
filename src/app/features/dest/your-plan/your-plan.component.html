@@ -1,0 +1,111 @@
+<section
+  class="relative py-20 lg:py-24 bg-cover bg-center bg-no-repeat"
+  style="background-image: url('/assets/images/travel-bg.jpg')"
+>
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Title -->
+    <div class="text-center mb-10">
+      <span class="uppercase tracking-[4px] text-white/80 text-sm font-medium">
+        Editor's Picks
+      </span>
+
+      <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4">Plan Your Trip</h2>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-4 md:gap-8 mb-8 md:mb-12 px-4">
+      <button
+        (click)="activeTab = 'accommodation'"
+        [class.border-white]="activeTab === 'accommodation'"
+        class="text-white text-sm md:text-base border-b-2 border-transparent pb-2 transition-all duration-300"
+      >
+        Accommodation
+      </button>
+
+      <button
+        (click)="activeTab = 'inspiration'"
+        [class.border-white]="activeTab === 'inspiration'"
+        class="text-white text-sm md:text-base border-b-2 border-transparent pb-2 transition-all duration-300"
+      >
+        Inspiration
+      </button>
+
+      <button
+        (click)="activeTab = 'tips'"
+        [class.border-white]="activeTab === 'tips'"
+        class="text-white text-sm md:text-base border-b-2 border-transparent pb-2 transition-all duration-300"
+      >
+        Tips & Tricks
+      </button>
+
+      <button
+        (click)="activeTab = 'transport'"
+        [class.border-white]="activeTab === 'transport'"
+        class="text-white text-sm md:text-base border-b-2 border-transparent pb-2 transition-all duration-300"
+      >
+        Transport
+      </button>
+    </div>
+    <!-- White Card -->
+    <div class="bg-white rounded-3xl shadow-2xl p-6 md:p-10 lg:p-12 min-h-[350px] md:min-h-[500px]">
+      @if (activeTab === 'accommodation') {
+        <div>
+          <h3 class="text-2xl md:text-3xl font-bold mb-4">Accommodation</h3>
+
+          <p class="text-gray-600 mb-6">Hotels, resorts and accessible stays.</p>
+
+          <div class="grid md:grid-cols-3 gap-4">
+            <div class="bg-stone-100 rounded-xl p-6">Hotel Card 1</div>
+
+            <div class="bg-stone-100 rounded-xl p-6">Hotel Card 2</div>
+
+            <div class="bg-stone-100 rounded-xl p-6">Hotel Card 3</div>
+          </div>
+        </div>
+
+      } @else if (activeTab === 'inspiration') {
+        <div>
+          <h3 class="text-2xl md:text-3xl font-bold mb-4">Inspiration</h3>
+
+          <p class="text-gray-600 mb-6">Travel ideas and destination guides.</p>
+
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="bg-stone-100 rounded-xl p-6">Inspiration Card 1</div>
+
+            <div class="bg-stone-100 rounded-xl p-6">Inspiration Card 2</div>
+          </div>
+        </div>
+
+      } @else if (activeTab === 'tips') {
+        <div>
+          <h3 class="text-2xl md:text-3xl font-bold mb-4">Tips & Tricks</h3>
+
+          <p class="text-gray-600 mb-6">Helpful travel recommendations.</p>
+
+          <div class="space-y-4">
+            <div class="bg-stone-100 rounded-xl p-5">Tip #1</div>
+
+            <div class="bg-stone-100 rounded-xl p-5">Tip #2</div>
+          </div>
+        </div>
+
+      } @else if (activeTab === 'transport') {
+        <div>
+          <h3 class="text-2xl md:text-3xl font-bold mb-4">Transport</h3>
+
+          <p class="text-gray-600 mb-6">Accessible transportation options.</p>
+
+          <div class="grid md:grid-cols-3 gap-4">
+            <div class="bg-stone-100 rounded-xl p-6">Air Travel</div>
+
+            <div class="bg-stone-100 rounded-xl p-6">Rail Travel</div>
+
+            <div class="bg-stone-100 rounded-xl p-6">Local Transport</div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
