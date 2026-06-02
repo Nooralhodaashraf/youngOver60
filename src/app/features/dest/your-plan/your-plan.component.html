@@ -51,20 +51,21 @@
     <!-- White Card -->
     <div class="bg-white rounded-3xl shadow-2xl p-6 md:p-10 lg:p-12 min-h-[350px] md:min-h-[500px]">
       @if (activeTab === 'accommodation') {
-        <div>
-          <h3 class="text-2xl md:text-3xl font-bold mb-4">Accommodation</h3>
+        <div class="bg-stone-100 rounded-3xl p-12 md:p-20 text-center">
+          <h3 class="text-4xl md:text-5xl font-bold mb-5">There's No Stories Yet</h3>
 
-          <p class="text-gray-600 mb-6">Hotels, resorts and accessible stays.</p>
+          <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+            New stories will appear here soon. Until then, explore our collection of guides and
+            resources.
+          </p>
 
-          <div class="grid md:grid-cols-3 gap-4">
-            <div class="bg-stone-100 rounded-xl p-6">Hotel Card 1</div>
-
-            <div class="bg-stone-100 rounded-xl p-6">Hotel Card 2</div>
-
-            <div class="bg-stone-100 rounded-xl p-6">Hotel Card 3</div>
-          </div>
+          <a
+            href="#"
+            class="inline-block px-8 py-4 bg-[#0B1F3B] text-white rounded-full font-medium hover:-translate-y-1 transition-transform"
+          >
+            Explore All Guides
+          </a>
         </div>
-
       } @else if (activeTab === 'inspiration') {
         <div>
           <h3 class="text-2xl md:text-3xl font-bold mb-4">Inspiration</h3>
@@ -77,7 +78,6 @@
             <div class="bg-stone-100 rounded-xl p-6">Inspiration Card 2</div>
           </div>
         </div>
-
       } @else if (activeTab === 'tips') {
         <div>
           <h3 class="text-2xl md:text-3xl font-bold mb-4">Tips & Tricks</h3>
@@ -90,7 +90,6 @@
             <div class="bg-stone-100 rounded-xl p-5">Tip #2</div>
           </div>
         </div>
-
       } @else if (activeTab === 'transport') {
         <div>
           <h3 class="text-2xl md:text-3xl font-bold mb-4">Transport</h3>

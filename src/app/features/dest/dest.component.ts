@@ -4,6 +4,7 @@ import { NewsComponent } from './news/news.component';
 import { TailoredComponent } from './tailored/tailored.component';
 import { YourPlanComponent } from './your-plan/your-plan.component';
 import { DestinationsComponent } from './destinations/destinations.component';
+import { ChroniclesComponent } from './chronicles/chronicles.component';
 
 @Component({
   selector: 'app-dest',
@@ -13,6 +14,7 @@ import { DestinationsComponent } from './destinations/destinations.component';
     TailoredComponent,
     YourPlanComponent,
     DestinationsComponent,
+    ChroniclesComponent,
   ],
   templateUrl: './dest.component.html',
   styleUrl: './dest.component.css',
