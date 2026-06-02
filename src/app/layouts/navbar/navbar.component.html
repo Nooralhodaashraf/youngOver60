@@ -1,0 +1,138 @@
+<nav class="sticky top-0 z-50 bg-[#0B1F3B] backdrop-blur-2xl border-b border-[#d89d2e]/40">
+  <div class="max-w-[1400px] mx-auto px-6">
+    <div class="h-20 flex items-center justify-between">
+      <!-- LOGO -->
+      <a routerLink="/" class="flex flex-col leading-none">
+        <span class="text-3xl font-semibold text-white"> Young </span>
+
+        <span class="text-[10px] tracking-[6px] uppercase text-[#d89d2e] mt-1"> Over 60 </span>
+      </a>
+
+      <!-- DESKTOP MENU -->
+      <ul class="hidden lg:flex items-center gap-10">
+        <li>
+          <a
+            routerLink="/destanation"
+            routerLinkActive="text-[#d89d2e]"
+            class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
+          >
+            Destination
+          </a>
+        </li>
+
+        <li>
+          <a
+            routerLink="/experiance"
+            routerLinkActive="text-[#d89d2e]"
+            class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
+          >
+            Experience
+          </a>
+        </li>
+
+        <li>
+          <a
+            routerLink="/plan"
+            routerLinkActive="text-[#d89d2e]"
+            class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
+          >
+            Plan
+          </a>
+        </li>
+
+        <li>
+          <a
+            routerLink="/about"
+            routerLinkActive="text-[#d89d2e]"
+            class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
+          >
+            About
+          </a>
+        </li>
+
+        <li>
+          <a
+            routerLink="/medical"
+            routerLinkActive="text-[#d89d2e]"
+            class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
+          >
+            Medical
+          </a>
+        </li>
+      </ul>
+
+      <!-- ACTIONS -->
+      <div class="flex items-center gap-4">
+        <!-- SEARCH -->
+        <button
+          class="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md border border-[#d89d2e]/40 text-white hover:border-[#d89d2e] hover:text-[#d89d2e] transition"
+        >
+          🔍
+        </button>
+
+        <!-- LANGUAGE -->
+        <button
+          class="px-5 py-2 rounded-full bg-white text-[#0B1F3B] border border-[#d89d2e]/40 hover:shadow-[0_0_18px_rgba(216,157,46,0.35)] transition font-medium"
+        >
+          AR
+        </button>
+
+        <!-- MOBILE TOGGLE -->
+        <button class="lg:hidden flex flex-col gap-1" (click)="toggleMobileMenu()">
+          <span class="w-6 h-[2px] bg-white"></span>
+          <span class="w-6 h-[2px] bg-white"></span>
+          <span class="w-6 h-[2px] bg-white"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div
+    class="lg:hidden overflow-hidden transition-all duration-500 bg-[#0B1F3B] border-t border-[#d89d2e]/40"
+    [class.max-h-0]="!mobileMenuOpen"
+    [class.max-h-[450px]]="mobileMenuOpen"
+  >
+    <div class="px-6 py-6 flex flex-col gap-5">
+      <a
+        routerLink="/destanation"
+        (click)="closeMobileMenu()"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+      >
+        Destination
+      </a>
+
+      <a
+        routerLink="/experiance"
+        (click)="closeMobileMenu()"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+      >
+        Experience
+      </a>
+
+      <a
+        routerLink="/plan"
+        (click)="closeMobileMenu()"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+      >
+        Plan
+      </a>
+
+      <a
+        routerLink="/about"
+        (click)="closeMobileMenu()"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+      >
+        About
+      </a>
+
+      <a
+        routerLink="/medical"
+        (click)="closeMobileMenu()"
+        class="text-white/80 hover:text-[#d89d2e] transition py-3"
+      >
+        Medical
+      </a>
+    </div>
+  </div>
+</nav>
