@@ -8,6 +8,8 @@ import { ChroniclesComponent } from './chronicles/chronicles.component';
 import { AudioSecComponent } from './audio-sec/audio-sec.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ExperianceComponent } from '../experiance/experiance.component';
+import { InTouchComponent } from './in-touch/in-touch.component';
+import { ExpSecComponent } from './exp-sec/exp-sec.component';
 
 @Component({
   selector: 'app-dest',
@@ -21,6 +23,8 @@ import { ExperianceComponent } from '../experiance/experiance.component';
     AudioSecComponent,
     TestimonialsComponent,
     ExperianceComponent,
+    InTouchComponent,
+    ExpSecComponent,
   ],
   templateUrl: './dest.component.html',
   styleUrl: './dest.component.css',
