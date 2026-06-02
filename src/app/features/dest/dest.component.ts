@@ -6,6 +6,7 @@ import { YourPlanComponent } from './your-plan/your-plan.component';
 import { DestinationsComponent } from './destinations/destinations.component';
 import { ChroniclesComponent } from './chronicles/chronicles.component';
 import { AudioSecComponent } from './audio-sec/audio-sec.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @Component({
   selector: 'app-dest',
@@ -17,6 +18,7 @@ import { AudioSecComponent } from './audio-sec/audio-sec.component';
     DestinationsComponent,
     ChroniclesComponent,
     AudioSecComponent,
+    TestimonialsComponent,
   ],
   templateUrl: './dest.component.html',
   styleUrl: './dest.component.css',
