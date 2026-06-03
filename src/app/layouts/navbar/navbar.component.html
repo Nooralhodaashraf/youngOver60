@@ -12,7 +12,17 @@
       <ul class="hidden lg:flex items-center gap-10">
         <li>
           <a
-            routerLink="/destanation"
+            routerLink="/news"
+            routerLinkActive="text-[#d89d2e]"
+            class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
+          >
+            News
+          </a>
+        </li>
+
+        <li>
+          <a
+            routerLink="/destination"
             routerLinkActive="text-[#d89d2e]"
             class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
           >
@@ -29,16 +39,15 @@
             Medical
           </a>
         </li>
-        <li class="relative group">
+        <!-- <li class="relative group">
           <a
             href="javascript:void(0)"
             class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] group-hover:after:w-full after:transition-all"
           >
             Experience
           </a>
-
-          <!-- Dropdown -->
-          <div
+           Dropdown -->
+        <!--  <div
             class="absolute left-0 top-full mt-4 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 transition-all duration-300 bg-[#0B1F3B] border border-[#d89d2e]/30 rounded-xl shadow-2xl overflow-hidden"
           >
             <a
@@ -47,28 +56,24 @@
             >
               Animal Encounters
             </a>
-
             <a
               [routerLink]="['/experience', 'cruises']"
               class="block px-5 py-3 text-white/80 hover:text-[#d89d2e] hover:bg-white/5"
             >
               cruises
             </a>
-
             <a
               [routerLink]="['/experience', 'familyTravel']"
               class="block px-5 py-3 text-white/80 hover:text-[#d89d2e] hover:bg-white/5"
             >
               Family Travel
             </a>
-
             <a
               [routerLink]="['/experience', 'gearAndSport']"
               class="block px-5 py-3 text-white/80 hover:text-[#d89d2e] hover:bg-white/5"
             >
               Gear & Sport
             </a>
-
             <a
               [routerLink]="['/experience', 'luxuryExperiences']"
               class="block px-5 py-3 text-white/80 hover:text-[#d89d2e] hover:bg-white/5"
@@ -76,15 +81,25 @@
               Luxury Experiences
             </a>
           </div>
+        </li> -->
+
+        <li>
+          <a
+            routerLink="/stories"
+            routerLinkActive="text-[#d89d2e]"
+            class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
+          >
+            Stories
+          </a>
         </li>
 
         <li>
           <a
-            routerLink="/plan"
+            routerLink="/podcast"
             routerLinkActive="text-[#d89d2e]"
             class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
           >
-            Plan
+            Podcast
           </a>
         </li>
 
@@ -102,18 +117,65 @@
       <!-- ACTIONS -->
       <div class="flex items-center gap-4">
         <!-- SEARCH -->
-        <button
-          class="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md border border-[#d89d2e]/40 text-white hover:border-[#d89d2e] hover:text-[#d89d2e] transition"
-        >
-          🔍
-        </button>
+        <div class="relative">
+          <button
+            class="w-10 h-10 rounded-full bg-white/10 border border-[#d89d2e]/40 text-white hover:border-[#d89d2e] hover:text-[#d89d2e] transition flex items-center justify-center"
+            (click)="searchOpen = !searchOpen"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+
+          @if (searchOpen) {
+            <div
+              class="absolute right-0 top-14 w-[320px] bg-[#0B1F3B] border border-[#d89d2e]/30 rounded-2xl p-3 shadow-2xl"
+            >
+              <input
+                type="text"
+                placeholder="Search stories..."
+                class="w-full h-11 px-4 rounded-xl bg-white/10 text-white placeholder:text-white/40 outline-none border border-white/10 focus:border-[#d89d2e]"
+              />
+            </div>
+          }
+        </div>
 
         <!-- LANGUAGE -->
-        <button
-          class="px-5 py-2 rounded-full bg-white text-[#0B1F3B] border border-[#d89d2e]/40 hover:shadow-[0_0_18px_rgba(216,157,46,0.35)] transition font-medium"
-        >
-          AR
-        </button>
+        <!-- LANGUAGE -->
+        <div class="relative language-dropdown">
+          <button
+            (click)="toggleLanguageMenu()"
+            class="w-11 h-11 rounded-full bg-white/10 border border-white/10 flex items-center justify-center text-white hover:border-[#d89d2e] hover:text-[#d89d2e] transition"
+          >
+            <i class="fa-solid fa-globe"></i>
+          </button>
+
+          <div
+            class="absolute right-0 top-full mt-3 w-44 bg-[#10284c] rounded-2xl border border-[#d89d2e]/30 overflow-hidden shadow-2xl transition-all duration-300"
+            [class.opacity-0]="!languageMenuOpen"
+            [class.invisible]="!languageMenuOpen"
+            [class.translate-y-2]="!languageMenuOpen"
+            [class.opacity-100]="languageMenuOpen"
+            [class.visible]="languageMenuOpen"
+            [class.translate-y-0]="languageMenuOpen"
+          >
+            <button
+              class="w-full text-left px-5 py-3 text-white/80 hover:bg-white/5 hover:text-[#d89d2e]"
+            >
+              🇺🇸 English
+            </button>
+
+            <button
+              class="w-full text-left px-5 py-3 text-white/80 hover:bg-white/5 hover:text-[#d89d2e]"
+            >
+              🇪🇬 العربية
+            </button>
+
+            <button
+              class="w-full text-left px-5 py-3 text-white/80 hover:bg-white/5 hover:text-[#d89d2e]"
+            >
+              🇩🇪 Deutsch
+            </button>
+          </div>
+        </div>
 
         <!-- MOBILE TOGGLE -->
         <button class="lg:hidden flex flex-col gap-1" (click)="toggleMobileMenu()">

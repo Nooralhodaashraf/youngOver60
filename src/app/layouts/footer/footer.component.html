@@ -1,97 +1,138 @@
-<footer class="bg-[#0B1F3B] text-white border-t border-[#d89d2e]/30 backdrop-blur-xl">
-  <div class="max-w-[1400px] mx-auto px-6 py-14">
-    <!-- GRID -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+<footer class="bg-[#0B1F3B] text-white border-t border-[#d89d2e]/20">
+  <div class="max-w-[1400px] mx-auto px-6 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
       <!-- BRAND -->
-      <div>
-        <a routerLink="/" class="flex flex-col leading-none">
-          <div class="w-[100px] pb-7">
-            <img src="/assets/images/logo.jpeg" class="w-full rounded-2xl" alt="" />
-          </div>
+      <div class="lg:col-span-2">
+        <a routerLink="/" class="inline-block">
+          <img
+            src="/assets/images/logo.jpeg"
+            class="w-[110px] rounded-2xl mb-5"
+            alt="Young Over 60"
+          />
         </a>
 
-        <p class="text-white/70 text-sm leading-relaxed">
+        <p class="text-white/65 text-sm leading-7 max-w-md">
           Unlocking the world's most beautiful destinations for everyone, regardless of physical or
           sensory requirements.
         </p>
+
+        <!-- SOCIAL -->
+        <div class="flex gap-3 mt-6">
+          <a
+            href="#"
+            class="w-10 h-10 rounded-full border border-[#d89d2e]/25 flex items-center justify-center text-white/70 hover:bg-[#d89d2e] hover:text-[#0B1F3B] transition-all duration-300"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+          <a
+            href="#"
+            class="w-10 h-10 rounded-full border border-[#d89d2e]/25 flex items-center justify-center text-white/70 hover:bg-[#d89d2e] hover:text-[#0B1F3B] transition-all duration-300"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/zakaria-dawoud-26902b180?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            class="w-10 h-10 rounded-full border border-[#d89d2e]/25 flex items-center justify-center text-white/70 hover:bg-[#d89d2e] hover:text-[#0B1F3B] transition-all duration-300"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <a
+            href="#"
+            class="w-10 h-10 rounded-full border border-[#d89d2e]/25 flex items-center justify-center text-white/70 hover:bg-[#d89d2e] hover:text-[#0B1F3B] transition-all duration-300"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
       </div>
 
       <!-- DESTINATIONS -->
       <div>
-        <h4 class="text-[#d89d2e] font-semibold mb-4 tracking-wide">Destinations</h4>
+        <h4 class="text-[#d89d2e] font-semibold mb-5">Destinations</h4>
 
-        <ul class="space-y-3">
+        <ul class="space-y-3 text-sm">
           <li>
-            <a routerLink="/americas" class="text-white/70 hover:text-[#d89d2e] transition">
-              Americas
-            </a>
+            <a routerLink="/americas" class="text-white/65 hover:text-[#d89d2e]"> Americas </a>
           </li>
 
           <li>
-            <a routerLink="/asia-pacific" class="text-white/70 hover:text-[#d89d2e] transition">
+            <a routerLink="/asia-pacific" class="text-white/65 hover:text-[#d89d2e]">
               Asia Pacific
             </a>
           </li>
 
           <li>
-            <a routerLink="/australia" class="text-white/70 hover:text-[#d89d2e] transition">
-              Australia
-            </a>
+            <a routerLink="/australia" class="text-white/65 hover:text-[#d89d2e]"> Australia </a>
           </li>
 
           <li>
-            <a routerLink="/europe" class="text-white/70 hover:text-[#d89d2e] transition">
-              Europe
-            </a>
+            <a routerLink="/europe" class="text-white/65 hover:text-[#d89d2e]"> Europe </a>
           </li>
         </ul>
       </div>
 
       <!-- EXPLORE -->
       <div>
-        <h4 class="text-[#d89d2e] font-semibold mb-4 tracking-wide">Explore</h4>
+        <h4 class="text-[#d89d2e] font-semibold mb-5">Explore</h4>
 
-        <ul class="space-y-3">
+        <ul class="space-y-3 text-sm">
           <li>
-            <a routerLink="/news" class="text-white/70 hover:text-[#d89d2e] transition"> News </a>
+            <a routerLink="/news" class="text-white/65 hover:text-[#d89d2e]"> News </a>
           </li>
 
           <li>
-            <a routerLink="/accessibility" class="text-white/70 hover:text-[#d89d2e] transition">
+            <a routerLink="/accessibility" class="text-white/65 hover:text-[#d89d2e]">
               Accessibility
             </a>
           </li>
 
           <li>
-            <a routerLink="/contact" class="text-white/70 hover:text-[#d89d2e] transition">
-              Contact
-            </a>
+            <a routerLink="/contact" class="text-white/65 hover:text-[#d89d2e]"> Contact </a>
           </li>
 
           <li>
-            <a routerLink="/admin/login" class="text-white/70 hover:text-[#d89d2e] transition">
+            <a routerLink="/admin/login" class="text-white/65 hover:text-[#d89d2e]">
               Staff Login
             </a>
           </li>
         </ul>
       </div>
 
-      <!-- POLICY -->
+      <!-- CONTACT -->
       <div>
-        <h4 class="text-[#d89d2e] font-semibold mb-4 tracking-wide">Access Policy</h4>
+        <h4 class="text-[#d89d2e] font-semibold mb-5">Contact</h4>
 
-        <p class="text-white/60 text-sm leading-relaxed">
-          Our content follows accessibility standards. If you find barriers or issues, please
-          contact support.
+        <a
+          href="https://wa.me/+4917676503041?text='Welcome to the Young Over 60 platform – your inquiry relates to trips, offers, news, and the services provided.'"
+          target="_blank"
+          class="flex items-center gap-3 rounded-xl border border-[#d89d2e]/20 bg-white/5 p-3 hover:bg-white/10 transition"
+        >
+          <div class="w-10 h-10 rounded-full bg-green-500/15 flex items-center justify-center">
+            <i class="fab fa-whatsapp text-green-400"></i>
+          </div>
+
+          <div>
+            <p class="text-[11px] text-white/45 uppercase">WhatsApp</p>
+
+            <p class="text-sm text-white">+49 176 765 03041</p>
+          </div>
+        </a>
+
+        <p class="text-white/50 text-xs mt-4 leading-6">
+          Our content follows accessibility standards and inclusive travel guidelines.
         </p>
       </div>
     </div>
   </div>
 
-  <!-- BOTTOM BAR -->
-  <div class="border-t border-[#d89d2e]/20">
-    <div class="max-w-[1400px] mx-auto px-6 py-6 flex flex-col md:flex-row justify-between gap-3">
-      <p class="text-white/50 text-sm">© 2026 Young Over 60. All Rights Reserved.</p>
+  <!-- BOTTOM -->
+  <div class="border-t border-[#d89d2e]/15">
+    <div
+      class="max-w-[1400px] mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-3"
+    >
+      <p class="text-white/40 text-sm">© 2026 Young Over 60. All Rights Reserved.</p>
 
       <p class="text-[#d89d2e] text-sm">Designed with accessibility & visual excellence.</p>
     </div>

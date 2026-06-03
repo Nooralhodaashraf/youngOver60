@@ -1,0 +1,47 @@
+<section class="relative w-full py-24 bg-[#050b18] overflow-hidden">
+  <!-- Background Glow -->
+  <div
+    class="absolute top-0 left-0 w-[500px] h-[500px] bg-[#d4af37]/10 blur-3xl rounded-full"
+  ></div>
+  <div
+    class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#1a2a44]/40 blur-3xl rounded-full"
+  ></div>
+
+  <!-- Container -->
+  <div class="relative max-w-6xl mx-auto px-6 flex flex-col items-center">
+    <!-- Section Title -->
+    <span class="text-[#d4af37] uppercase tracking-[0.3em] text-xs"> Podcast Episode </span>
+
+    <h2 class="text-white text-4xl md:text-5xl font-bold mt-4 text-center">
+      Stories That Move the World
+    </h2>
+
+    <p class="text-white/70 mt-4 text-center max-w-2xl">
+      Listen to real travel experiences, accessibility insights, and inspiring journeys from around
+      the globe.
+    </p>
+
+    <!-- Frame -->
+    <div class="relative mt-12 w-full max-w-4xl">
+      <!-- Outer Frame Border -->
+      <div
+        class="p-3 rounded-2xl bg-gradient-to-r from-[#d4af37]/40 via-[#1a2a44] to-[#d4af37]/40 shadow-2xl"
+      >
+        <!-- Inner Frame -->
+        <div class="rounded-xl overflow-hidden bg-black">
+          <!-- Video -->
+          <video class="w-full h-[420px] object-cover" controls autoplay muted loop playsinline>
+            <source src="your-podcast-video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+
+      <!-- Floating Button -->
+      <button
+        class="absolute -bottom-7 left-1/2 -translate-x-1/2 px-8 py-3 rounded-full bg-[#d4af37] text-[#050b18] font-semibold shadow-lg hover:scale-105 transition"
+      >
+        <i class="fas fa-play"></i> Play Episode
+      </button>
+    </div>
+  </div>
+</section>
