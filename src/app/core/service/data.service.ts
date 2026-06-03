@@ -19,7 +19,7 @@ export class DataService {
           {
             id: 1,
             title: 'Safari with Gentle Giants',
-            image: '/assets/images/animals/safari.jpg',
+            image: '/assets/images/safari.jpg',
             description:
               'Experience wildlife safaris designed for animal lovers with comfort and accessibility.',
             location: 'Kenya',
@@ -28,7 +28,7 @@ export class DataService {
           {
             id: 2,
             title: 'Pet-Friendly Europe Tours',
-            image: '/assets/images/animals/pets-europe.jpg',
+            image: '/assets/images/pets.jpg',
             description:
               'Travel across Europe with your pets in specially designed friendly routes.',
             location: 'Europe',
@@ -49,7 +49,7 @@ export class DataService {
           {
             id: 1,
             title: 'Multi-Generation Adventures',
-            image: '/assets/images/family/family1.jpg',
+            image: '/assets/images/family1.jpg',
             description:
               'Trips designed for grandparents, parents, and kids to enjoy together comfortably.',
             location: 'Worldwide',
@@ -58,7 +58,7 @@ export class DataService {
           {
             id: 2,
             title: 'Kid-Friendly Cultural Tours',
-            image: '/assets/images/family/family2.jpg',
+            image: '/assets/images/family2.jpg',
             description: 'Cultural experiences tailored for families with children and seniors.',
             location: 'Europe',
             link: '/family/kid-friendly-cultural-tours',
@@ -79,7 +79,7 @@ export class DataService {
           {
             id: 1,
             title: 'Mediterranean Luxury Cruise',
-            image: '/assets/images/cruises/med.jpg',
+            image: '/assets/images/med.png',
             description: 'Relaxing cruise experience across the Mediterranean sea.',
             duration: '10 Days',
             link: '/cruises/mediterranean',
@@ -87,7 +87,7 @@ export class DataService {
           {
             id: 2,
             title: 'Nile River Journey',
-            image: '/assets/images/cruises/nile.jpg',
+            image: '/assets/images/nile.jpg',
             description: 'Explore Egypt through a calm and accessible Nile cruise.',
             duration: '5 Days',
             link: '/cruises/nile',
@@ -108,7 +108,7 @@ export class DataService {
             id: 1,
             category: 'Travel Gear',
             title: 'Lightweight Mobility Gear',
-            image: '/assets/images/gear/mobility.jpg',
+            image: '/assets/images/mobility.jpg',
             description: 'Smart mobility equipment designed for long trips.',
             link: '/gear/mobility',
           },
@@ -116,14 +116,14 @@ export class DataService {
             id: 2,
             category: 'Outdoor Sport',
             title: 'Adaptive Hiking Equipment',
-            image: '/assets/images/gear/hiking.jpg',
+            image: '/assets/images/hiking.jpg',
             description: 'Gear that makes hiking safe and accessible for everyone.',
             link: '/gear/hiking',
           },
         ],
       },
 
-      transport: {
+      luxuryExperiences: {
         header: {
           label: 'Transport',
           title: 'Accessible Ways To Move',
@@ -137,7 +137,7 @@ export class DataService {
             id: 1,
             type: 'Air Travel',
             title: 'Accessible Flights Guide',
-            image: '/assets/images/transport/air.jpg',
+            image: '/assets/images/air.jpg',
             description: 'Airlines that support mobility needs and senior travelers.',
             link: '/transport/air',
           },
@@ -145,7 +145,7 @@ export class DataService {
             id: 2,
             type: 'Rail Travel',
             title: 'Comfortable Train Journeys',
-            image: '/assets/images/transport/train.jpg',
+            image: '/assets/images/metro.jpg',
             description: 'Rail systems with accessibility options for smooth travel.',
             link: '/transport/rail',
           },
