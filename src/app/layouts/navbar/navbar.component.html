@@ -195,20 +195,22 @@
   >
     <div class="px-6 py-6 flex flex-col gap-5">
       <a
-        routerLink="/destanation"
+        routerLink="/news"
+        routerLinkActive="text-[#d89d2e]"
         (click)="closeMobileMenu()"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+      >
+        News
+      </a>
+      <a
+        (click)="closeMobileMenu()"
+        routerLink="/destination"
+        routerLinkActive="text-[#d89d2e]"
         class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
       >
         Destination
       </a>
-      <a
-        routerLink="/medical"
-        (click)="closeMobileMenu()"
-        class="text-white/80 hover:text-[#d89d2e] transition py-3"
-      >
-        Medical
-      </a>
-      <div class="border-b border-[#d89d2e]/30 pb-3">
+      <!-- <div class="border-b border-[#d89d2e]/30 pb-3">
         <button
           (click)="toggleExperienceMenu()"
           class="w-full flex items-center justify-between text-white/80 hover:text-[#d89d2e] py-3"
@@ -268,14 +270,30 @@
             </a>
           </div>
         </div>
-      </div>
-
+      </div> -->
       <a
-        routerLink="/plan"
+        routerLink="/medical"
+        routerLinkActive="text-[#d89d2e]"
         (click)="closeMobileMenu()"
         class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
       >
-        Plan
+        Medical
+      </a>
+      <a
+        routerLink="/stories"
+        routerLinkActive="text-[#d89d2e]"
+        (click)="closeMobileMenu()"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+      >
+        Stories
+      </a>
+      <a
+        routerLink="/podcast"
+        routerLinkActive="text-[#d89d2e]"
+        (click)="closeMobileMenu()"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+      >
+        Podcast
       </a>
 
       <a
