@@ -14,7 +14,7 @@ export const routes: Routes = [
     title: 'destenation',
   },
 
-  { path: 'experiance', component: ExperianceComponent, title: 'experiance' },
+  { path: 'experience/:label', component: ExperianceComponent, title: 'experiance' },
   { path: 'plan', component: PlanComponent, title: 'you plans' },
   { path: 'about', component: AboutComponent, title: 'about' },
   { path: 'medical', component: MedicalComponent, title: 'medical' },
