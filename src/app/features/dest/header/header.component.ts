@@ -8,9 +8,11 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class HeaderComponent {
   @ViewChild('video') videoRef!: ElementRef<HTMLVideoElement>;
+  @ViewChild('heroVideo') video!: ElementRef<HTMLVideoElement>;
 
   ngAfterViewInit() {
     this.videoRef.nativeElement.muted = true;
     this.videoRef.nativeElement.volume = 0;
+    this.video.nativeElement.play().catch(() => {});
   }
 }
