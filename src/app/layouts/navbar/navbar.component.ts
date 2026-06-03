@@ -8,6 +8,12 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   styleUrl: './navbar.component.css',
 })
 export class NavbarComponent {
+  mobileExperienceOpen = false;
+
+  toggleExperienceMenu() {
+    this.mobileExperienceOpen = !this.mobileExperienceOpen;
+  }
+
   mobileMenuOpen = false;
 
   toggleMobileMenu() {
