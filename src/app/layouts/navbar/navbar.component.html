@@ -139,7 +139,13 @@
       >
         Destination
       </a>
-
+      <a
+        routerLink="/medical"
+        (click)="closeMobileMenu()"
+        class="text-white/80 hover:text-[#d89d2e] transition py-3"
+      >
+        Medical
+      </a>
       <div class="border-b border-[#d89d2e]/30 pb-3">
         <button
           (click)="toggleExperienceMenu()"
@@ -216,14 +222,6 @@
         class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
       >
         About
-      </a>
-
-      <a
-        routerLink="/medical"
-        (click)="closeMobileMenu()"
-        class="text-white/80 hover:text-[#d89d2e] transition py-3"
-      >
-        Medical
       </a>
     </div>
   </div>
