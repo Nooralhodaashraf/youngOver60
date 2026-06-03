@@ -22,7 +22,6 @@ import { ExpSecComponent } from './exp-sec/exp-sec.component';
     ChroniclesComponent,
     AudioSecComponent,
     TestimonialsComponent,
-    ExperianceComponent,
     InTouchComponent,
     ExpSecComponent,
   ],

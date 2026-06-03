@@ -1,0 +1,166 @@
+<!-- TABS SECTION -->
+<section class="py-16 bg-white border-b border-stone-200">
+  <div class="max-w-7xl mx-auto px-6">
+    <!-- Tabs -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <!-- ACCOMMODATION -->
+      <button
+        (click)="activeTab = 'accommodation'"
+        class="p-6 rounded-3xl border transition-all duration-300"
+        [class.border-[#d89d2e]]="activeTab === 'accommodation'"
+        [class.bg-[#d89d2e]/10]="activeTab === 'accommodation'"
+        [class.border-stone-200]="activeTab !== 'accommodation'"
+        [class.bg-stone-50]="activeTab !== 'accommodation'"
+      >
+        <div
+          class="w-14 h-14 mx-auto mb-4 rounded-2xl flex items-center justify-center text-2xl text-[#d89d2e] bg-[#d89d2e]/10"
+        >
+          <i class="fa-solid fa-hotel"></i>
+        </div>
+
+        <h3 class="font-bold text-[#0B1F3B]">ACCOMMODATION</h3>
+        <p class="mt-2 text-sm text-gray-500">Hotels & Stays</p>
+      </button>
+
+      <!-- TIPS -->
+      <button
+        (click)="activeTab = 'tips'"
+        class="p-6 rounded-3xl border transition-all duration-300"
+        [class.border-[#d89d2e]]="activeTab === 'tips'"
+        [class.bg-[#d89d2e]/10]="activeTab === 'tips'"
+        [class.border-stone-200]="activeTab !== 'tips'"
+        [class.bg-stone-50]="activeTab !== 'tips'"
+      >
+        <div
+          class="w-14 h-14 mx-auto mb-4 rounded-2xl flex items-center justify-center text-2xl text-[#d89d2e] bg-[#d89d2e]/10"
+        >
+          <i class="fa-regular fa-lightbulb"></i>
+        </div>
+
+        <h3 class="font-bold text-[#0B1F3B]">TIPS & TRICKS</h3>
+        <p class="mt-2 text-sm text-gray-500">Smart Travel Advice</p>
+      </button>
+
+      <!-- TRANSPORT -->
+      <button
+        (click)="activeTab = 'transport'"
+        class="p-6 rounded-3xl border transition-all duration-300"
+        [class.border-[#d89d2e]]="activeTab === 'transport'"
+        [class.bg-[#d89d2e]/10]="activeTab === 'transport'"
+        [class.border-stone-200]="activeTab !== 'transport'"
+        [class.bg-stone-50]="activeTab !== 'transport'"
+      >
+        <div
+          class="w-14 h-14 mx-auto mb-4 rounded-2xl flex items-center justify-center text-2xl text-[#d89d2e] bg-[#d89d2e]/10"
+        >
+          <i class="fa-solid fa-plane"></i>
+        </div>
+
+        <h3 class="font-bold text-[#0B1F3B]">TRANSPORT</h3>
+        <p class="mt-2 text-sm text-gray-500">Travel & Mobility</p>
+      </button>
+
+      <!-- GEAR -->
+      <button
+        (click)="activeTab = 'gear'"
+        class="p-6 rounded-3xl border transition-all duration-300"
+        [class.border-[#d89d2e]]="activeTab === 'gear'"
+        [class.bg-[#d89d2e]/10]="activeTab === 'gear'"
+        [class.border-stone-200]="activeTab !== 'gear'"
+        [class.bg-stone-50]="activeTab !== 'gear'"
+      >
+        <div
+          class="w-14 h-14 mx-auto mb-4 rounded-2xl flex items-center justify-center text-2xl text-[#d89d2e] bg-[#d89d2e]/10"
+        >
+          <i class="fa-solid fa-suitcase-medical"></i>
+        </div>
+
+        <h3 class="font-bold text-[#0B1F3B]">GEAR & SUPPORT</h3>
+        <p class="mt-2 text-sm text-gray-500">Equipment & Assistance</p>
+      </button>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="mt-12 text-center">
+      @if (activeTab === 'accommodation') {
+        <h2 class="text-3xl font-bold text-[#0B1F3B]">Best Stays For You</h2>
+        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+          Discover comfortable, accessible and carefully selected accommodations for your journey.
+        </p>
+        <div class="mt-16 flex flex-col items-center justify-center text-center">
+          <!-- Icon -->
+          <div class="w-20 h-20 rounded-full bg-[#d89d2e]/10 flex items-center justify-center mb-6">
+            <i class="fa-regular fa-folder-open text-3xl text-[#d89d2e]"></i>
+          </div>
+
+          <!-- Text -->
+          <h3 class="text-2xl font-bold text-[#0B1F3B]">No items yet</h3>
+
+          <p class="mt-3 text-gray-500 max-w-md">
+            We’re currently preparing content for this section. Please check back soon for updates.
+          </p>
+        </div>
+      }
+
+      @if (activeTab === 'tips') {
+        <h2 class="text-3xl font-bold text-[#0B1F3B]">Smart Travel Tips</h2>
+        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+          Practical advice to make your trip easier, safer, and more enjoyable.
+        </p>
+        <div class="mt-16 flex flex-col items-center justify-center text-center">
+          <!-- Icon -->
+          <div class="w-20 h-20 rounded-full bg-[#d89d2e]/10 flex items-center justify-center mb-6">
+            <i class="fa-regular fa-folder-open text-3xl text-[#d89d2e]"></i>
+          </div>
+
+          <!-- Text -->
+          <h3 class="text-2xl font-bold text-[#0B1F3B]">No items yet</h3>
+
+          <p class="mt-3 text-gray-500 max-w-md">
+            We’re currently preparing content for this section. Please check back soon for updates.
+          </p>
+        </div>
+      }
+
+      @if (activeTab === 'transport') {
+        <h2 class="text-3xl font-bold text-[#0B1F3B]">Move Comfortably</h2>
+        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+          Accessible transport options designed for stress-free travel.
+        </p>
+        <div class="mt-16 flex flex-col items-center justify-center text-center">
+          <!-- Icon -->
+          <div class="w-20 h-20 rounded-full bg-[#d89d2e]/10 flex items-center justify-center mb-6">
+            <i class="fa-regular fa-folder-open text-3xl text-[#d89d2e]"></i>
+          </div>
+
+          <!-- Text -->
+          <h3 class="text-2xl font-bold text-[#0B1F3B]">No items yet</h3>
+
+          <p class="mt-3 text-gray-500 max-w-md">
+            We’re currently preparing content for this section. Please check back soon for updates.
+          </p>
+        </div>
+      }
+
+      @if (activeTab === 'gear') {
+        <h2 class="text-3xl font-bold text-[#0B1F3B]">Gear & Support</h2>
+        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+          Essential equipment and support tools for safe and comfortable travel.
+        </p>
+        <div class="mt-16 flex flex-col items-center justify-center text-center">
+          <!-- Icon -->
+          <div class="w-20 h-20 rounded-full bg-[#d89d2e]/10 flex items-center justify-center mb-6">
+            <i class="fa-regular fa-folder-open text-3xl text-[#d89d2e]"></i>
+          </div>
+
+          <!-- Text -->
+          <h3 class="text-2xl font-bold text-[#0B1F3B]">No items yet</h3>
+
+          <p class="mt-3 text-gray-500 max-w-md">
+            We’re currently preparing content for this section. Please check back soon for updates.
+          </p>
+        </div>
+      }
+    </div>
+  </div>
+</section>
