@@ -11,12 +11,8 @@ import { NavbarComponent } from './layouts/navbar/navbar.component';
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
-export class App implements OnInit {
+export class App {
   pageReady = false;
-
-  ngOnInit() {
-    this.pageReady = true;
-  }
 
   protected readonly title = signal('youngOver60');
 
@@ -30,5 +26,6 @@ export class App implements OnInit {
       this.translate.use(localStorage.getItem('lang')!);
       this.myTranslateService.changeDir();
     }
+    this.pageReady = true;
   }
 }
