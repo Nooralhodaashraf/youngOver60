@@ -645,7 +645,7 @@
   }
 },"women":{
   "womenHero": {
-    "badge": "Women Stories",
+    "badge": "Women's Stories",
     "title": "Inspiring Journeys",
     "description": "A collection of real stories that reflect strength, experience, and personal growth.",
 
@@ -710,7 +710,7 @@
     "news": "News",
     "destination": "Destination",
     "medical": "Medical Tourism",
-    "stories": "Women Stories",
+    "stories": "Women's Stories",
     "podcast": "Podcast",
     "about": "About",
     "searchPlaceholder": "Search stories...",

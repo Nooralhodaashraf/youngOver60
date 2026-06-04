@@ -9,7 +9,7 @@ import { StoriesComponent } from './features/stories/stories.component';
 import { PodcastComponent } from './features/podcast/podcast.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'news', pathMatch: 'full' },
+  { path: '', redirectTo: 'destination', pathMatch: 'full' },
 
   {
     path: 'destination',
