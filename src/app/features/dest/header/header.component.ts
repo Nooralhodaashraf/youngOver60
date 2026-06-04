@@ -9,11 +9,10 @@ import { TranslatePipe } from '@ngx-translate/core';
 })
 export class HeaderComponent {
   @ViewChild('video') videoRef!: ElementRef<HTMLVideoElement>;
-  @ViewChild('heroVideo') video!: ElementRef<HTMLVideoElement>;
 
   ngAfterViewInit() {
     this.videoRef.nativeElement.muted = true;
     this.videoRef.nativeElement.volume = 0;
-    this.video.nativeElement.play().catch(() => {});
+    this.videoRef.nativeElement.play().catch(() => {});
   }
 }
