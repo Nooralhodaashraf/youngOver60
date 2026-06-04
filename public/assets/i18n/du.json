@@ -632,11 +632,13 @@
 
     "text1": "Wir glauben, dass Reisen weder Luxus noch Privileg einer bestimmten Altersgruppe ist. Es ist ein Grundrecht für alle, unabhängig von Alter oder körperlichen Fähigkeiten.",
     "text2": "Reisen öffnet Fenster zur Schönheit der Welt, verbindet Kulturen und trägt zum geistigen und körperlichen Wohlbefinden bei.",
-
+"text1mob": "Reisen ist für alle, unabhängig von Alter oder Fähigkeiten.",
+"text2mob": "Reisen verbindet Kulturen und fördert das Wohlbefinden.",
     "visionTitle": "Unsere Vision: Reisen ohne Grenzen",
     "visionText1": "Wir möchten Reisen für Menschen über 60 und Personen mit besonderen Bedürfnissen zugänglich und angenehm machen.",
     "visionText2": "Unsere Mission ist es, veraltete Stereotype zu überwinden und zu zeigen, dass Abenteuer und Entdeckung kein Ablaufdatum haben.",
-
+"visionText1mob": "Reisen einfach und angenehm für Senioren und Menschen mit besonderen Bedürfnissen.",
+"visionText2mob": "Abenteuer und Entdeckung kennen kein Alter.",
     "stats": {
       "seniors": "Feier des Lebens jenseits traditioneller Grenzen.",
       "infinity": "Unendliche Möglichkeiten, die Welt zu entdecken.",

@@ -798,11 +798,13 @@
 
     "text1": "We believe that travel is neither a luxury nor a privilege reserved for a specific age group. It is a fundamental right for everyone, regardless of age or physical ability.",
     "text2": "Travel opens windows to the world's beauty, creates connections between cultures, and contributes to both mental and physical wellbeing.",
-
+"text1mob": "Travel is for everyone, regardless of age or ability.",
+"text2mob": "Travel connects cultures and supports wellbeing.",
     "visionTitle": "Our Vision: Travel Without Boundaries",
     "visionText1": "We strive to make travel accessible, comfortable, and enjoyable for everyone over 60 and for individuals with special needs.",
     "visionText2": "Our mission is to challenge outdated stereotypes and prove that adventure, curiosity, and exploration have no expiration date.",
-
+"visionText1mob": "Making travel easy and enjoyable for seniors and people with special needs.",
+"visionText2mob": "Adventure and exploration have no age limit.",
     "stats": {
       "seniors": "Celebrating life beyond traditional limits.",
       "infinity": "Endless opportunities to discover the world.",

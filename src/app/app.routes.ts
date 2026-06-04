@@ -7,9 +7,10 @@ import { MedicalComponent } from './features/medical/medical.component';
 import { NewsComponent } from './features/news/news.component';
 import { StoriesComponent } from './features/stories/stories.component';
 import { PodcastComponent } from './features/podcast/podcast.component';
+import { NotFoundComponent } from './features/not-found/not-found.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'destination', pathMatch: 'full' },
+  { path: '', redirectTo: 'news', pathMatch: 'full' },
 
   {
     path: 'destination',
@@ -26,8 +27,7 @@ export const routes: Routes = [
   { path: 'podcast', component: PodcastComponent, title: 'podcast' },
   {
     path: '**',
-    loadComponent: () =>
-      import('./features/not-found/not-found.component').then((m) => m.NotFoundComponent),
+    component: NotFoundComponent,
     title: 'not Found page',
   },
 ];
