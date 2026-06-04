@@ -1,0 +1,69 @@
+{
+    "news":{
+  "newsHero": {
+    "badge": "Latest Updates",
+    "title": {
+      "line1": "Travel News &",
+      "highlight": "Inspiring Stories"
+    },
+    "description": "Stay informed with the latest travel updates, accessibility insights, destination highlights, and inspiring experiences from around the world.",
+    "stats": {
+      "stories": {
+        "number": "500+",
+        "label": "Published Stories"
+      },
+      "destinations": {
+        "number": "80+",
+        "label": "Destinations Covered"
+      },
+      "updates": {
+        "number": "24/7",
+        "label": "Latest Updates"
+      }
+    }
+  },
+   "newsContent": {
+    "header": {
+      "badge": "Latest Articles",
+      "title": {
+        "line1": "News Coming",
+        "highlight": "Soon"
+      },
+      "description": "We're preparing exciting travel updates, accessibility insights, destination highlights and inspiring stories."
+    },
+    "emptyState": {
+      "title": "No News Available Yet",
+      "description": "New articles and travel stories will appear here soon. Check back later for the latest updates and featured content."
+    }
+  }
+},
+"destenationPage":{
+  "destinationsHero": {
+    "subtitle": "Pockets of history and magic curated for diverse requirements",
+    "title": "Explore Accessible Egypt",
+    "button": "View Guides"
+  }, "destinationsTestimonials": {
+    "header": {
+      "badge": "Voices of the Journey",
+      "title": "Traveler Testimonials"
+    },
+    "cards": [
+      {
+        "text": "Young Over 60 transformed the way I travel. Their detailed reports on accessibility let me explore Giza with total confidence.",
+        "name": "Sarah Jenkins",
+        "role": "Active Adventurer, UK"
+      },
+      {
+        "text": "Finally, a travel portal that treats accessibility as a core editorial theme rather than an afterthought.",
+        "name": "Amina Mansour",
+        "role": "Sensory Explorer, Egypt"
+      },
+      {
+        "text": "Every story feels personal and inspiring. It completely changed how I plan my trips.",
+        "name": "Emily Watson",
+        "role": "Travel Blogger, UK"
+      }
+    ]
+  }
+}
+}

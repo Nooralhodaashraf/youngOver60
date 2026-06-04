@@ -1,0 +1,69 @@
+{
+    "news":{
+  "newsHero": {
+    "badge": "Neueste Updates",
+    "title": {
+      "line1": "Reisenachrichten &",
+      "highlight": "Inspirierende Geschichten"
+    },
+    "description": "Bleiben Sie informiert über aktuelle Reisetipps, Barrierefreiheit, Reiseziel-Highlights und inspirierende Erlebnisse aus aller Welt.",
+    "stats": {
+      "stories": {
+        "number": "500+",
+        "label": "Veröffentlichte Geschichten"
+      },
+      "destinations": {
+        "number": "80+",
+        "label": "Abgedeckte Reiseziele"
+      },
+      "updates": {
+        "number": "24/7",
+        "label": "Aktuelle Updates"
+      }
+    }
+  }
+  , "newsContent": {
+    "header": {
+      "badge": "Neueste Artikel",
+      "title": {
+        "line1": "Neuigkeiten kommen",
+        "highlight": "Bald"
+      },
+      "description": "Wir bereiten spannende Reise-Updates, Barrierefreiheits-Einblicke, Reiseziel-Highlights und inspirierende Geschichten vor."
+    },
+    "emptyState": {
+      "title": "Noch keine Nachrichten verfügbar",
+      "description": "Neue Artikel und Reisegeschichten werden hier bald erscheinen. Schauen Sie später wieder vorbei."
+    }
+  }
+},"destenationPage":{
+  "destinationsHero": {
+    "subtitle": "Orte voller Geschichte und Magie, sorgfältig für unterschiedliche Bedürfnisse zusammengestellt",
+    "title": "Entdecke barrierefreies Ägypten",
+    "button": "Reiseführer ansehen"
+  },"destinationsTestimonials": {
+    "header": {
+      "badge": "Stimmen der Reise",
+      "title": "Reisende Erfahrungsberichte"
+    },
+    "cards": [
+      {
+        "text": "Young Over 60 hat meine Art zu reisen verändert. Die detaillierten Barrierefreiheitsberichte ermöglichten mir, Gizeh völlig sorgenfrei zu erkunden.",
+        "name": "Sarah Jenkins",
+        "role": "Aktive Abenteurerin, UK"
+      },
+      {
+        "text": "Endlich ein Reiseportal, das Barrierefreiheit als zentrales Thema behandelt und nicht als Nebensache.",
+        "name": "Amina Mansour",
+        "role": "Sensorische Entdeckerin, Ägypten"
+      },
+      {
+        "text": "Jede Geschichte wirkt persönlich und inspirierend. Es hat meine Reiseplanung komplett verändert.",
+        "name": "Emily Watson",
+        "role": "Reisebloggerin, UK"
+      }
+    ]
+  }
+}
+
+}
