@@ -64,6 +64,586 @@
         "role": "Travel Blogger, UK"
       }
     ]
+  },  "womenChronicles": {
+    "header": {
+      "badge": "Women Stories",
+      "title": {
+        "line1": "Women",
+        "highlight": "Chronicles"
+      },
+      "cta": "Read All Chronicles"
+    },
+    "featured": {
+      "tag": "Solo Travel",
+      "title": "Solo Travel Through Cairo: A Wheelchair User's Journal",
+      "description": "A firsthand account of navigating Cairo's historic sites and bustling streets."
+    },
+    "stories": [
+      {
+        "author": "Sarah Jenkins",
+        "readTime": "5 min read",
+        "title": "Navigating the Temples of Luxor with Sensory Needs",
+        "description": "Luxor's ancient monuments are awe-inspiring but can be sensory-heavy."
+      },
+      {
+        "author": "Amina Mansour",
+        "readTime": "7 min read",
+        "title": "A Deaf Traveller's Guide to Khan el-Khalili",
+        "description": "Exploring Cairo's famous marketplace through visual and tactile connection."
+      }
+    ]
+  }, "destinationsAudio": {
+    "header": {
+      "badge": "Podcasts",
+      "title": {
+        "line1": "Audio",
+        "highlight": "Journeys"
+      },
+      "cta": "Listen to All Episodes"
+    },
+    "cards": [
+      {
+        "duration": "24:18",
+        "date": "June 01, 2026",
+        "tag": "Podcast",
+        "title": "Accessible Antiquities: Exploring Giza Wheelchair Access",
+        "description": "In this episode, we explore accessibility across Egypt’s most iconic landmarks and hear real experiences from travellers."
+      },
+      {
+        "duration": "18:45",
+        "date": "June 01, 2026",
+        "tag": "Podcast",
+        "title": "Sensory Calm in the Sinai Desert",
+        "description": "Discover the therapeutic silence of the Sinai and explore sensory-friendly wellness retreats."
+      },
+      {
+        "duration": "31:12",
+        "date": "June 01, 2026",
+        "tag": "Podcast",
+        "title": "Breaking Barriers: Solo Adventuring in Alexandria",
+        "description": "A deep dive into exploring Alexandria with low vision and discovering inclusive travel experiences."
+      }
+    ]
+  }, "destinationsBrowse": {
+    "header": {
+      "badge": "Where to next?",
+      "title": {
+        "line1": "Browse by",
+        "highlight": "Destinations"
+      }
+    },
+    "cards": [
+      {
+        "region": "Region",
+        "title": "Australia",
+        "image": "/assets/images/aust.png"
+      },
+      {
+        "region": "Region",
+        "title": "Asia Pacific",
+        "image": "/assets/images/asia.png"
+      },
+      {
+        "region": "Region",
+        "title": "Europe",
+        "image": "/assets/images/europ.png"
+      },
+      {
+        "region": "Region",
+        "title": "Americas",
+        "image": "/assets/images/ameraca.png"
+      }
+    ]
+  }, "destinationsExperiences": {
+    "header": {
+      "badge": "Real Experiences",
+      "title": "Traveller Experiences"
+    },
+    "tabs": {
+      "animals": "Animal Encounters",
+      "cruises": "Cruises",
+      "family": "Family Travel",
+      "food": "Food & Drink"
+    },
+    "animals": {
+      "title": "Wild Moments & Real Encounters",
+      "description": "Stories of safaris, marine life, wildlife parks, and unforgettable close encounters.",
+      "card": {
+        "tag": "Wildlife Story",
+        "title": "Safari in the Serengeti",
+        "description": "A real journey through Africa’s wild landscapes and unforgettable animal encounters.",
+        "button": "Read Experience →"
+      }
+    },
+    "cruises": {
+      "placeholder": "Cruise experiences content goes here."
+    },
+    "family": {
+      "placeholder": "Family travel experiences content goes here."
+    },
+    "food": {
+      "placeholder": "Food & drink experiences content goes here."
+    }
+  }, "newsletter": {
+    "header": {
+      "badge": "Newsletter",
+      "title": {
+        "line1": "Stay Connected to",
+        "highlight": "The Wonder"
+      },
+      "description": "Subscribe to receive seasonal itineraries, accessibility updates, travel inspiration, and exclusive destination guides curated for travellers of all abilities."
+    },
+    "form": {
+      "placeholder": "Enter your email address",
+      "checkbox": "I consent to receiving newsletters, travel updates, accessibility resources, and promotional communications.",
+      "button": "Subscribe Now"
+    }
+  }, "destinationNews": {
+    "header": {
+      "badge": "Latest Insights",
+      "title": {
+        "line1": "Featured News &",
+        "highlight": "Stories"
+      }
+    },
+    "slides": [
+      {
+        "author": "Site Admin",
+        "date": "Jan 15, 2026",
+        "title": "On Turtle Time at Mon Repos Turtle Centre",
+        "description": "A magical encounter where accessible nature meets wonder.",
+        "image": "/assets/images/image copy.png",
+        "button": "Read Full Story →"
+      },
+      {
+        "author": "Site Admin",
+        "date": "May 20, 2026",
+        "title": "A European Summer of Music and Discovery",
+        "description": "Music knows no limits — accessibility meets culture.",
+        "image": "/assets/images/europ.png",
+        "button": "Read Full Story →"
+      },
+      {
+        "author": "Site Admin",
+        "date": "May 20, 2026",
+        "title": "Konichiwa, Japan: Serenity in Vibrancy",
+        "description": "Discovering serenity and accessibility in Japan's cities, from Kyoto to Tokyo.",
+        "image": "/assets/images/asia.png",
+        "button": "Read Full Story →"
+      }
+    ]
+  },  "tailoredForSeniors": {
+    "header": {
+      "badge": "Quick Access",
+      "title": {
+        "line1": "Tailored for",
+        "highlight": "Seniors"
+      }
+    },
+    "button": "View Stories",
+    "cards": [
+      {
+        "title": "Physical / Mobility",
+        "image": "/assets/images/image.png"
+      },
+      {
+        "title": "Cruises",
+        "image": "/assets/images/image copy.png"
+      },
+      {
+        "title": "Accommodation",
+        "image": "/assets/images/image copy2.png"
+      },
+      {
+        "title": "Gear & Support",
+        "image": "/assets/images/image copy3.png"
+      },
+      {
+        "title": "Sensory Needs",
+        "image": "/assets/images/image copy.png"
+      },
+      {
+        "title": "Tips & Tricks",
+        "image": "/assets/images/image copy3.png"
+      }
+    ]
+  }, "destinationPlan": {
+    "header": {
+      "badge": "Editor's Picks",
+      "title": "Plan Your Trip"
+    },
+    "tabs": {
+      "accommodation": "Accommodation",
+      "inspiration": "Inspiration",
+      "tips": "Tips & Tricks",
+      "transport": "Transport"
+    },
+    "accommodation": {
+      "title": "There's No Stories Yet",
+      "description": "New stories will appear here soon. Until then, explore our collection of guides and resources.",
+      "button": "Explore All Guides"
+    },
+    "inspiration": {
+      "badge": "Inspiration Hub",
+      "title": "Travel Stories That Inspire",
+      "description": "Explore real journeys, practical travel advice, and inspiring experiences shared by travellers from around the world.",
+      "cards": [
+        {
+          "tag": "Travel Story",
+          "title": "Solo Travel Through Cairo",
+          "description": "Discover historic landmarks, hidden gems, and practical accessibility tips through a firsthand travel experience in Cairo.",
+          "button": "Read Story",
+          "image": "/assets/images/image copy.png"
+        }
+      ]
+    },
+    "tips": {
+      "emptyMessage": "No stories found in this category yet."
+    },
+    "transport": {
+      "title": "Transport",
+      "description": "Accessible transportation options.",
+      "items": [
+        "Air Travel",
+        "Rail Travel",
+        "Local Transport"
+      ]
+    }
   }
+},  "experience": {
+    "hero": {
+      "badge": "Experience Collection",
+      "titlePrefix": "Discover",
+      "availableSuffix": "Experiences Available"
+    },
+    "content": {
+      "title": "Explore Experiences",
+      "description": "Carefully selected experiences designed to inspire, inform, and help you discover new possibilities.",
+      "readMore": "Read More",
+      "category": "Experience"
+    }
+  },"medical": {
+"medicalHero": {
+"badge": "Medical Tourism",
+"titlePrefix": "Heal & Travel With",
+"titleHighlight": "Confidence",
+"description": "Discover world-class medical destinations, trusted hospitals, and accessible care combined with comfortable travel experiences designed for your well-being and peace of mind.",
+"features": {
+"hospitals": "Trusted Hospitals Worldwide",
+"care": "Specialized Medical Care",
+"support": "Accessible Travel Support"
+},
+"button": "Explore Medical Destinations"
+},
+  "medicalIntro": {
+    "badge": "About Medical Travel",
+    "title": "Care That Travels With You",
+    "description1": "Medical tourism is more than treatment abroad. It combines trusted healthcare with safe, comfortable, and accessible travel experiences.",
+    "description2": "From consultation to recovery, every step is designed to provide peace of mind through expert care and personalized support.",
+    "button": "Explore Services",
+    "cardTitle": "Why Choose Us?",
+    "features": {
+      "feature1": "Trusted global medical partners",
+      "feature2": "Personalized travel assistance",
+      "feature3": "Accessibility-focused planning",
+      "feature4": "End-to-end patient support"
+    }
+  }
+} ,"newsSection": {
+    "header": {
+      "badge": "Latest Updates",
+      "titlePrefix": "Travel News &",
+      "titleHighlight": "Inspiring Stories",
+      "description": "Stay informed with the latest travel updates, accessibility insights, destination highlights, and inspiring experiences from around the world.",
+      "stats": {
+        "storiesValue": "500+",
+        "storiesLabel": "Published Stories",
+        "destinationsValue": "80+",
+        "destinationsLabel": "Destinations Covered",
+        "updatesValue": "24/7",
+        "updatesLabel": "Latest Updates"
+      }
+    },"newsContent": {
+"label": "Latest Articles",
+"title": {
+"beforeItalic": "News Coming",
+"italic": "Soon"
+},
+"description": "We're preparing exciting travel updates, accessibility insights, destination highlights and inspiring stories.",
+"emptyState": {
+"title": "No News Available Yet",
+"description": "New articles and travel stories will appear here soon. Check back later for the latest updates and featured content."
 }
+}
+  },"notFoundPage": {
+"errorCode": "404",
+"title": "Page Not Found",
+"description": "The page you’re looking for doesn’t exist or has been moved. Let’s get you back to a safe place.",
+"buttons": {
+"home": "Go Home",
+"news": "Explore News"
+}
+},"plansSec": {
+"header": {
+"label": "Plan Your Trip",
+"title": {
+"line1": "Every Great Journey",
+"line2": "Starts With A",
+"italic": "Smart Plan"
+},
+"description": "Discover practical travel guides, accessibility tips, transportation advice, accommodation recommendations, and everything you need to prepare for a comfortable and unforgettable journey.",
+"buttons": {
+"startPlanning": "Start Planning",
+"exploreResources": "Explore Resources"
+},
+"stats": {
+"guides": {
+"value": "100+",
+"label": "Travel Guides"
+},
+"destinations": {
+"value": "50+",
+"label": "Accessible Destinations"
+},
+"resources": {
+"value": "24/7",
+"label": "Planning Resources"
+}
+}
+},
+  "tabs": {
+    "accommodation": {
+      "title": "ACCOMMODATION",
+      "subtitle": "Hotels & Stays",
+      "heading": "Best Stays For You",
+      "description": "Discover comfortable, accessible and carefully selected accommodations for your journey.",
+      "emptyTitle": "No items yet",
+      "emptyText": "We’re currently preparing content for this section. Please check back soon for updates."
+    },
+
+    "tips": {
+      "title": "TIPS & TRICKS",
+      "subtitle": "Smart Travel Advice",
+      "heading": "Smart Travel Tips",
+      "description": "Practical advice to make your trip easier, safer, and more enjoyable.",
+      "emptyTitle": "No items yet",
+      "emptyText": "We’re currently preparing content for this section. Please check back soon for updates."
+    },
+
+    "transport": {
+      "title": "TRANSPORT",
+      "subtitle": "Travel & Mobility",
+      "heading": "Move Comfortably",
+      "description": "Accessible transport options designed for stress-free travel.",
+      "emptyTitle": "No items yet",
+      "emptyText": "We’re currently preparing content for this section. Please check back soon for updates."
+    },
+
+    "gear": {
+      "title": "GEAR & SUPPORT",
+      "subtitle": "Equipment & Assistance",
+      "heading": "Gear & Support",
+      "description": "Essential equipment and support tools for safe and comfortable travel.",
+      "emptyTitle": "No items yet",
+      "emptyText": "We’re currently preparing content for this section. Please check back soon for updates."
+    }
+  }
+},"podcast":{
+  "podcastHero": {
+    "badge": "Podcast Series",
+    "titleLine1": "Listen.",
+    "titleLine2": "Learn.",
+    "titleLine3": "Be Inspired.",
+    "description": "Inspiring conversations, accessible travel experiences, expert insights and powerful stories from around the world.",
+    "ctaPrimary": "Explore Episodes",
+    "ctaSecondary": "Latest Episode",
+    "stats": {
+      "episodes": "Episodes",
+      "listeners": "Listeners",
+      "frequency": "Weekly New Episodes"
+    }
+  }, "podcastList": {
+    "badge": "Podcast Episodes",
+    "titleLine1": "Latest",
+    "titleLine2": "Episodes",
+    "description": "Listen to inspiring conversations, accessibility insights and stories from around the world.",
+
+    "empty": {
+      "title": "No Podcast Episodes Yet",
+      "description": "We're preparing inspiring conversations and travel stories. New podcast episodes will be available soon.",
+      "status": "Coming Soon"
+    }
+  }, "podcastPlay": {
+    "badge": "Podcast Episode",
+    "title": "Stories That Move the World",
+    "description": "Listen to real travel experiences, accessibility insights, and inspiring journeys from around the globe.",
+    "button": "Play Episode"
+  }
+},"women":{
+  "womenHero": {
+    "badge": "Women Stories",
+    "title": "Inspiring Journeys",
+    "description": "A collection of real stories that reflect strength, experience, and personal growth.",
+
+    "cards": {
+      "1": {
+        "tag": "Empowerment",
+        "title": "Finding Strength Through Travel",
+        "description": "A journey of independence, confidence, and rediscovering life through new experiences",
+        "cta": "Read Story"
+      },
+      "2": {
+        "tag": "Lifestyle",
+        "title": "Rebuilding Life With Passion",
+        "description": "How small changes and courage lead to a completely new beginning",
+        "cta": "Read Story"
+      },
+      "3": {
+        "tag": "Inspiration",
+        "title": "Voices That Inspire Change",
+        "description": "Stories that highlight resilience, hope, and personal transformation",
+        "cta": "Read Story"
+      }
+    }
+  }, "womenHeader": {
+    "badge": "Stories Section",
+    "title": "Women’s Stories",
+    "subtitle": "Real experiences, inspiring journeys, and powerful voices shared by women from around the world."
+  }
+},  "footer": {
+    "brand": {
+      "description": "Unlocking the world's most beautiful destinations for everyone, regardless of physical or sensory requirements."
+    },
+
+    "sections": {
+      "destinations": "Destinations",
+      "explore": "Explore",
+      "contact": "Contact"
+    },
+
+    "links": {
+      "americas": "Americas",
+      "asia": "Asia Pacific",
+      "australia": "Australia",
+      "europe": "Europe",
+
+      "news": "News",
+      "accessibility": "Accessibility",
+      "contact": "Contact",
+      "login": "Staff Login"
+    },
+
+    "contact": {
+      "whatsapp": "WhatsApp",
+      "note": "Our content follows accessibility standards and inclusive travel guidelines."
+    },
+
+    "bottom": {
+      "copyright": "© 2026 Young Over 60. All Rights Reserved.",
+      "credit": "Designed with accessibility & visual excellence."
+    }
+  }, "navbar": {
+    "news": "News",
+    "destination": "Destination",
+    "medical": "Medical",
+    "stories": "Stories",
+    "podcast": "Podcast",
+    "about": "About",
+    "searchPlaceholder": "Search stories...",
+    "language": {
+      "en": "English",
+      "ar": "Arabic",
+      "de": "German"
+    }
+  },"aboutPage": {
+    "header": {
+      "ourStory": "Our Story",
+      "titleLine1": "Beyond",
+      "titleHighlight": "60,",
+      "titleLine2": "Life Begins Again.",
+      "quote": "Every chapter deserves a new adventure.",
+      "descriptionDesktop": "The stories, people, and passion behind a community that believes every new chapter can become the greatest adventure yet. We celebrate curiosity, connection, and meaningful journeys at every stage of life.",
+      "descriptionMobile": "A community celebrating curiosity, connection, and meaningful journeys at every stage of life.",
+      "ctaPrimary": "Discover Our Story →",
+      "ctaSecondary": "Meet The Team"
+    },"contactMe": {
+    "header": {
+      "title": "Get In Touch",
+      "headingLine1": "Let’s Build Something",
+      "headingHighlight": "Meaningful",
+      "descriptionDesktop": "Whether you have a question, collaboration idea, or just want to say hello — feel free to reach out.",
+      "descriptionMobile": "Have a question or idea? Feel free to reach out."
+    },
+    "founderCard": {
+      "role": "Founder & Project CEO",
+      "cta": "View on LinkedIn",
+      "quote": "Beyond 60, life begins again. This project was built to prove that travel has no age limit."
+    },
+    "form": {
+      "title": "Send a Message",
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "button": "Send Message"
+    }
+  }, "offerSec": {
+    "header": {
+      "label": "What We Offer",
+      "titleLine1": "Everything You Need To",
+      "titleHighlight": "Travel Confidently",
+      "descriptionDesktop": "Carefully curated resources, inspiring stories, and practical guidance designed to help travellers over 60 and individuals with special needs explore the world comfortably and confidently.",
+      "descriptionMobile": "We provide resources, stories, and guidance for comfortable and confident travel."
+    },
+    "cards": {
+      "card1": {
+        "title": "Specialized News & Insights",
+        "text": "Stay updated with the latest developments in senior and accessible travel."
+      },
+      "card2": {
+        "title": "In-Depth Travel Reports",
+        "text": "Explore destinations evaluated for accessibility, comfort, and healthcare availability."
+      },
+      "card3": {
+        "title": "Stories & Inspiration",
+        "text": "Inspiring journeys from travellers over 60 and individuals with special needs."
+      },
+      "card4": {
+        "title": "Practical Guides & Tips",
+        "text": "Travel planning, insurance, transport, and accommodation guidance tailored to your needs."
+      }
+    }
+  },"philosophySec": {
+    "label": "Our Philosophy",
+    "titleLine1": "Life Begins",
+    "titleHighlight": "After 60",
+    "quote": "True youth lives in a curious mind and an adventurous spirit.",
+    "paragraph1Desktop": "We reject the idea of reducing a person to the number on their passport. Sixty is not the end of the road—it is a new beginning, filled with opportunities for discovery, growth, and unforgettable experiences.",
+    "paragraph1Mobile": "Age is just a number—60 is a new beginning full of discovery and growth.",
+    "paragraph2Desktop": "We believe that true youth is not measured by age, but by the ability to remain curious, open-minded, and eager to explore the world.",
+    "paragraph2Mobile": "True youth is curiosity, openness, and a desire to explore the world.",
+    "paragraph3Desktop": "At Young Over 60, every traveller has a story worth telling and every journey is a chance to rediscover life. The world is far too beautiful to be viewed only from a window, and your right to travel never expires.",
+    "paragraph3Mobile": "Every journey is a chance to rediscover life—your right to travel never expires.",
+    "cta": "Keep Exploring"
+  },"vision": {
+    "sectionLabel": "About Young Over 60",
+    "titleLine1": "Travel Has",
+    "titleHighlight": "No Age Limit",
+    "quote": "Beyond 60, life begins again.",
+
+    "cardTitle": "Young Over 60",
+
+    "text1": "We believe that travel is neither a luxury nor a privilege reserved for a specific age group. It is a fundamental right for everyone, regardless of age or physical ability.",
+    "text2": "Travel opens windows to the world's beauty, creates connections between cultures, and contributes to both mental and physical wellbeing.",
+
+    "visionTitle": "Our Vision: Travel Without Boundaries",
+    "visionText1": "We strive to make travel accessible, comfortable, and enjoyable for everyone over 60 and for individuals with special needs.",
+    "visionText2": "Our mission is to challenge outdated stereotypes and prove that adventure, curiosity, and exploration have no expiration date.",
+
+    "stats": {
+      "seniors": "Celebrating life beyond traditional limits.",
+      "infinity": "Endless opportunities to discover the world.",
+      "accessibility": "Dedicated to accessible and inclusive travel."
+    }
+  }
+  }
 }

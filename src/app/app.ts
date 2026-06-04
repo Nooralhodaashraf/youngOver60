@@ -19,7 +19,7 @@ export class App {
   private readonly myTranslateService = inject(MyTranslateService);
 
   constructor() {
-    this.myTranslateService.initNgxTranslate();
+    this.myTranslateService.initNgxTranslate;
     this.translate.addLangs(['ar', 'en', 'du']);
     if (localStorage.getItem('lang')) {
       this.translate.use(localStorage.getItem('lang')!);

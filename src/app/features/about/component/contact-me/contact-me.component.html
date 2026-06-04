@@ -9,21 +9,22 @@
     <!-- Header -->
     <div class="text-center mb-16">
       <span class="uppercase tracking-[4px] text-sm text-[#d89d2e] font-medium">
-        Get In Touch
+        {{ 'aboutPage.contactMe.header.title' | translate }}
       </span>
 
       <h2 class="mt-4 text-3xl md:text-5xl font-bold text-[#0B1F3B]">
-        Let’s Build Something
-        <span class="italic text-[#d89d2e]">Meaningful</span>
+        {{ 'aboutPage.contactMe.header.headingLine1' | translate }}
+        <span class="italic text-[#d89d2e]">
+          {{ 'aboutPage.contactMe.header.headingHighlight' | translate }}
+        </span>
       </h2>
 
       <p class="mt-5 hidden md:block text-gray-600 max-w-2xl mx-auto">
-        Whether you have a question, collaboration idea, or just want to say hello — feel free to
-        reach out.
+        {{ 'aboutPage.contactMe.header.descriptionDesktop' | translate }}
       </p>
 
       <p class="mt-5 md:hidden text-gray-600 max-w-2xl mx-auto">
-        Have a question or idea? Feel free to reach out.
+        {{ 'aboutPage.contactMe.header.descriptionMobile' | translate }}
       </p>
     </div>
 
@@ -55,10 +56,12 @@
               Zakaria Dawoud
             </h3>
 
-            <p class="text-gray-500 text-sm mt-1">Founder & Project CEO</p>
+            <p class="text-gray-500 text-sm mt-1">
+              {{ 'aboutPage.contactMe.founderCard.role' | translate }}
+            </p>
 
             <div class="mt-2 flex items-center gap-2 text-[#0B1F3B] text-sm font-medium">
-              <span>View on LinkedIn</span>
+              <span> {{ 'aboutPage.contactMe.founderCard.cta' | translate }} </span>
               <span class="group-hover:translate-x-1 transition">→</span>
             </div>
           </div>
@@ -66,14 +69,15 @@
 
         <!-- Quote -->
         <p class="mt-6 text-gray-600 leading-relaxed">
-          “Beyond 60, life begins again. This project was built to prove that travel has no age
-          limit.”
+          {{ 'aboutPage.contactMe.founderCard.quote' | translate }}
         </p>
       </a>
 
       <!-- Contact Form -->
       <div class="bg-white rounded-[32px] shadow-xl p-8 md:p-10">
-        <h3 class="text-2xl font-bold text-[#0B1F3B] mb-6">Send a Message</h3>
+        <h3 class="text-2xl font-bold text-[#0B1F3B] mb-6">
+          {{ 'aboutPage.contactMe.form.title' | translate }}
+        </h3>
 
         <form class="space-y-5">
           <input
@@ -98,7 +102,7 @@
             type="submit"
             class="w-full py-4 rounded-xl bg-[#0B1F3B] text-white font-medium hover:-translate-y-2 hover:shadow-2xl transition-all duration-500"
           >
-            Send Message
+            {{ 'aboutPage.contactMe.form.button' | translate }}
           </button>
         </form>
       </div>

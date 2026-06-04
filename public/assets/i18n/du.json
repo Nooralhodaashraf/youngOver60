@@ -63,7 +63,584 @@
         "role": "Reisebloggerin, UK"
       }
     ]
+  }, "womenChronicles": {
+    "header": {
+      "badge": "Frauen Geschichten",
+      "title": {
+        "line1": "Frauen",
+        "highlight": "Chroniken"
+      },
+      "cta": "Alle Chroniken lesen"
+    },
+    "featured": {
+      "tag": "Alleinreisen",
+      "title": "Alleinreise durch Kairo: Tagebuch einer Rollstuhlfahrerin",
+      "description": "Ein persönlicher Bericht über die Erkundung historischer Orte und belebter Straßen in Kairo."
+    },
+    "stories": [
+      {
+        "author": "Sarah Jenkins",
+        "readTime": "5 Min. Lesezeit",
+        "title": "Tempel von Luxor mit sensorischen Bedürfnissen erkunden",
+        "description": "Die antiken Monumente von Luxor sind beeindruckend, aber auch sehr reizintensiv."
+      },
+      {
+        "author": "Amina Mansour",
+        "readTime": "7 Min. Lesezeit",
+        "title": "Ein Guide für gehörlose Reisende durch Khan el-Khalili",
+        "description": "Erkundung des berühmten Basars durch visuelle und taktile Eindrücke."
+      }
+    ]
+  }, "destinationsAudio": {
+    "header": {
+      "badge": "Podcasts",
+      "title": {
+        "line1": "Audio",
+        "highlight": "Reisen"
+      },
+      "cta": "Alle Episoden anhören"
+    },
+    "cards": [
+      {
+        "duration": "24:18",
+        "date": "01. Juni 2026",
+        "tag": "Podcast",
+        "title": "Barrierefreie Antike: Gizeh mit Rollstuhl erleben",
+        "description": "In dieser Episode erkunden wir die Barrierefreiheit an Ägyptens berühmtesten Sehenswürdigkeiten und teilen echte Reiseerfahrungen."
+      },
+      {
+        "duration": "18:45",
+        "date": "01. Juni 2026",
+        "tag": "Podcast",
+        "title": "Sensorische Ruhe in der Sinai-Wüste",
+        "description": "Entdecke die therapeutische Stille des Sinai und barrierefreie Wellness-Erlebnisse."
+      },
+      {
+        "duration": "31:12",
+        "date": "01. Juni 2026",
+        "tag": "Podcast",
+        "title": "Barrieren brechen: Alleinreisen in Alexandria",
+        "description": "Ein Einblick in Alexandria aus der Perspektive von Menschen mit Sehbeeinträchtigung und inklusivem Reisen."
+      }
+    ]
+  }, "destinationsBrowse": {
+    "header": {
+      "badge": "Wohin als Nächstes?",
+      "title": {
+        "line1": "Nach",
+        "highlight": "Reisezielen"
+      }
+    },
+    "cards": [
+      {
+        "region": "Region",
+        "title": "Australien",
+        "image": "/assets/images/aust.png"
+      },
+      {
+        "region": "Region",
+        "title": "Asien-Pazifik",
+        "image": "/assets/images/asia.png"
+      },
+      {
+        "region": "Region",
+        "title": "Europa",
+        "image": "/assets/images/europ.png"
+      },
+      {
+        "region": "Region",
+        "title": "Amerika",
+        "image": "/assets/images/ameraca.png"
+      }
+    ]
+  }, "destinationsExperiences": {
+    "header": {
+      "badge": "Echte Erlebnisse",
+      "title": "Reiseerfahrungen"
+    },
+    "tabs": {
+      "animals": "Tierbegegnungen",
+      "cruises": "Kreuzfahrten",
+      "family": "Familienreisen",
+      "food": "Essen & Trinken"
+    },
+    "animals": {
+      "title": "Wilde Momente & echte Begegnungen",
+      "description": "Geschichten über Safaris, Meeresleben, Wildparks und unvergessliche Tierbegegnungen.",
+      "card": {
+        "tag": "Wildtiergeschichte",
+        "title": "Safari in der Serengeti",
+        "description": "Eine echte Reise durch Afrikas wilde Landschaften und unvergessliche Tiererlebnisse.",
+        "button": "Erlebnis lesen →"
+      }
+    },
+    "cruises": {
+      "placeholder": "Inhalte zu Kreuzfahrterlebnissen kommen hier."
+    },
+    "family": {
+      "placeholder": "Inhalte zu Familienreisen kommen hier."
+    },
+    "food": {
+      "placeholder": "Inhalte zu Essen & Trinken kommen hier."
+    }
+  }, "newsletter": {
+    "header": {
+      "badge": "Newsletter",
+      "title": {
+        "line1": "Bleib verbunden mit",
+        "highlight": "dem Wunder"
+      },
+      "description": "Abonniere für saisonale Reiserouten, Barrierefreiheits-Updates, Reiseinspirationen und exklusive Reiseführer für alle Reisenden."
+    },
+    "form": {
+      "placeholder": "E-Mail-Adresse eingeben",
+      "checkbox": "Ich stimme dem Erhalt von Newslettern, Reise-Updates, Barrierefreiheits-Ressourcen und Werbeinhalten zu.",
+      "button": "Jetzt abonnieren"
+    }
+  }, "destinationNews": {
+    "header": {
+      "badge": "Neueste Einblicke",
+      "title": {
+        "line1": "Ausgewählte News &",
+        "highlight": "Geschichten"
+      }
+    },
+    "slides": [
+      {
+        "author": "Site Admin",
+        "date": "15. Jan 2026",
+        "title": "Schildkrötenzeit im Mon Repos Turtle Centre",
+        "description": "Eine magische Begegnung, bei der Natur und Barrierefreiheit aufeinandertreffen.",
+        "image": "/assets/images/image copy.png",
+        "button": "Vollständige Story lesen →"
+      },
+      {
+        "author": "Site Admin",
+        "date": "20. Mai 2026",
+        "title": "Ein europäischer Sommer voller Musik und Entdeckungen",
+        "description": "Musik kennt keine Grenzen — wo Barrierefreiheit auf Kultur trifft.",
+        "image": "/assets/images/europ.png",
+        "button": "Vollständige Story lesen →"
+      },
+      {
+        "author": "Site Admin",
+        "date": "20. Mai 2026",
+        "title": "Japan: Ruhe in der Lebendigkeit",
+        "description": "Entdeckung von Ruhe und Barrierefreiheit in Japans Städten von Kyoto bis Tokio.",
+        "image": "/assets/images/asia.png",
+        "button": "Vollständige Story lesen →"
+      }
+    ]
+  },  "tailoredForSeniors": {
+    "header": {
+      "badge": "Schnellzugriff",
+      "title": {
+        "line1": "Speziell für",
+        "highlight": "Senioren"
+      }
+    },
+    "button": "Geschichten ansehen",
+    "cards": [
+      {
+        "title": "Mobilität & Bewegung",
+        "image": "/assets/images/image.png"
+      },
+      {
+        "title": "Kreuzfahrten",
+        "image": "/assets/images/image copy.png"
+      },
+      {
+        "title": "Unterkünfte",
+        "image": "/assets/images/image copy2.png"
+      },
+      {
+        "title": "Ausrüstung & Unterstützung",
+        "image": "/assets/images/image copy3.png"
+      },
+      {
+        "title": "Sensorische Bedürfnisse",
+        "image": "/assets/images/image copy.png"
+      },
+      {
+        "title": "Tipps & Tricks",
+        "image": "/assets/images/image copy3.png"
+      }
+    ]
+  },  "destinationPlan": {
+    "header": {
+      "badge": "Empfehlungen der Redaktion",
+      "title": "Plane Deine Reise"
+    },
+    "tabs": {
+      "accommodation": "Unterkünfte",
+      "inspiration": "Inspiration",
+      "tips": "Tipps & Tricks",
+      "transport": "Transport"
+    },
+    "accommodation": {
+      "title": "Noch keine Geschichten verfügbar",
+      "description": "Neue Geschichten werden bald hier erscheinen. Bis dahin kannst du unsere Reiseführer und Ressourcen entdecken.",
+      "button": "Alle Reiseführer entdecken"
+    },
+    "inspiration": {
+      "badge": "Inspirationszentrum",
+      "title": "Reisegeschichten, die inspirieren",
+      "description": "Entdecke echte Reisen, praktische Reisetipps und inspirierende Erfahrungen von Reisenden aus aller Welt.",
+      "cards": [
+        {
+          "tag": "Reisegeschichte",
+          "title": "Allein durch Kairo reisen",
+          "description": "Entdecke historische Sehenswürdigkeiten, versteckte Orte und hilfreiche Barrierefreiheits-Tipps in Kairo.",
+          "button": "Geschichte lesen",
+          "image": "/assets/images/image copy.png"
+        }
+      ]
+    },
+    "tips": {
+      "emptyMessage": "In dieser Kategorie wurden noch keine Geschichten gefunden."
+    },
+    "transport": {
+      "title": "Transport",
+      "description": "Barrierefreie Transportmöglichkeiten.",
+      "items": [
+        "Flugreisen",
+        "Bahnreisen",
+        "Öffentlicher Nahverkehr"
+      ]
+    }
   }
+}, "experience": {
+    "hero": {
+      "badge": "Erlebnissammlung",
+      "titlePrefix": "Entdecken Sie",
+      "availableSuffix": "Verfügbare Erlebnisse"
+    },
+    "content": {
+      "title": "Erlebnisse entdecken",
+      "description": "Sorgfältig ausgewählte Erlebnisse, die inspirieren, informieren und neue Möglichkeiten eröffnen.",
+      "readMore": "Mehr erfahren",
+      "category": "Erlebnis"
+    }
+  },"medical": {
+"medicalHero": {
+"badge": "Medizintourismus",
+"titlePrefix": "Heilen und Reisen mit",
+"titleHighlight": "Vertrauen",
+"description": "Entdecken Sie erstklassige medizinische Reiseziele, vertrauenswürdige Krankenhäuser und barrierefreie Versorgung kombiniert mit komfortablen Reiseerlebnissen für Ihr Wohlbefinden.",
+"features": {
+"hospitals": "Vertrauenswürdige Krankenhäuser weltweit",
+"care": "Spezialisierte medizinische Versorgung",
+"support": "Barrierefreie Reiseunterstützung"
+},
+"button": "Medizinische Reiseziele entdecken"
+}, "medicalIntro": {
+    "badge": "Über Medizintourismus",
+    "title": "Pflege, die mit Ihnen reist",
+    "description1": "Medizintourismus ist mehr als eine Behandlung im Ausland. Er verbindet hochwertige Gesundheitsversorgung mit sicheren und komfortablen Reiseerlebnissen.",
+    "description2": "Von der Beratung bis zur Genesung wird jeder Schritt so gestaltet, dass er Sicherheit, Komfort und persönliche Unterstützung bietet.",
+    "button": "Leistungen entdecken",
+    "cardTitle": "Warum uns wählen?",
+    "features": {
+      "feature1": "Vertrauenswürdige medizinische Partner weltweit",
+      "feature2": "Persönliche Reiseunterstützung",
+      "feature3": "Barrierefreie Reiseplanung",
+      "feature4": "Umfassende Patientenbetreuung"
+    }
+  }
+}, "newsSection": {
+    "header": {
+      "badge": "Neueste Updates",
+      "titlePrefix": "Reisenachrichten &",
+      "titleHighlight": "Inspirierende Geschichten",
+      "description": "Bleiben Sie über aktuelle Reisenachrichten, Barrierefreiheits-Informationen, Reiseziele und inspirierende Erlebnisse aus aller Welt informiert.",
+      "stats": {
+        "storiesValue": "500+",
+        "storiesLabel": "Veröffentlichte Geschichten",
+        "destinationsValue": "80+",
+        "destinationsLabel": "Abgedeckte Reiseziele",
+        "updatesValue": "24/7",
+        "updatesLabel": "Aktuelle Updates"
+      }
+    },"newsContent": {
+"label": "Neueste Artikel",
+"title": {
+"beforeItalic": "Neuigkeiten erscheinen",
+"italic": "Bald"
+},
+"description": "Wir bereiten spannende Reiseupdates, Einblicke zur Barrierefreiheit, Reiseziele und inspirierende Geschichten für Sie vor.",
+"emptyState": {
+"title": "Noch keine Neuigkeiten verfügbar",
+"description": "Neue Artikel und Reisegeschichten werden hier bald erscheinen. Schauen Sie später wieder vorbei, um die neuesten Updates und ausgewählten Inhalte zu entdecken."
 }
+}
+  },"notFoundPage": {
+"errorCode": "404",
+"title": "Seite nicht gefunden",
+"description": "Die gesuchte Seite existiert nicht oder wurde verschoben. Lassen Sie uns Sie zurück zu einem sicheren Ort bringen.",
+"buttons": {
+"home": "Zur Startseite",
+"news": "Neuigkeiten entdecken"
+}
+},"plansSec": {
+"header": {
+"label": "Reise planen",
+"title": {
+"line1": "Jede großartige Reise",
+"line2": "Beginnt mit einem",
+"italic": "Klugen Plan"
+},
+"description": "Entdecken Sie praktische Reiseführer, Tipps zur Barrierefreiheit, Hinweise zum Transport, Unterkunftsempfehlungen und alles, was Sie für eine komfortable und unvergessliche Reise benötigen.",
+"buttons": {
+"startPlanning": "Planung starten",
+"exploreResources": "Ressourcen entdecken"
+},
+"stats": {
+"guides": {
+"value": "100+",
+"label": "Reiseführer"
+},
+"destinations": {
+"value": "50+",
+"label": "Barrierefreie Reiseziele"
+},
+"resources": {
+"value": "24/7",
+"label": "Planungsressourcen"
+}
+}
+}, "tabs": {
+    "accommodation": {
+      "title": "Unterkunft",
+      "subtitle": "Hotels & Aufenthalte",
+      "heading": "Die besten Unterkünfte für dich",
+      "description": "Entdecke komfortable, barrierefreie und sorgfältig ausgewählte Unterkünfte für deine Reise.",
+      "emptyTitle": "Noch keine Inhalte",
+      "emptyText": "Wir bereiten diesen Bereich derzeit vor. Bitte schaue später wieder vorbei für Updates."
+    },
 
-}
+    "tips": {
+      "title": "Tipps & Tricks",
+      "subtitle": "Cleveres Reisen",
+      "heading": "Clevere Reisetipps",
+      "description": "Praktische Tipps, um deine Reise einfacher, sicherer und angenehmer zu machen.",
+      "emptyTitle": "Noch keine Inhalte",
+      "emptyText": "Wir bereiten diesen Bereich derzeit vor. Bitte schaue später wieder vorbei für Updates."
+    },
+
+    "transport": {
+      "title": "Transport",
+      "subtitle": "Reisen & Mobilität",
+      "heading": "Komfortabel unterwegs",
+      "description": "Barrierefreie Transportmöglichkeiten für stressfreies Reisen.",
+      "emptyTitle": "Noch keine Inhalte",
+      "emptyText": "Wir bereiten diesen Bereich derzeit vor. Bitte schaue später wieder vorbei für Updates."
+    },
+
+    "gear": {
+      "title": "Ausrüstung & Unterstützung",
+      "subtitle": "Equipment & Hilfe",
+      "heading": "Ausrüstung & Unterstützung",
+      "description": "Wichtige Ausrüstung und Hilfsmittel für sicheres und komfortables Reisen.",
+      "emptyTitle": "Noch keine Inhalte",
+      "emptyText": "Wir bereiten diesen Bereich derzeit vor. Bitte schaue später wieder vorbei für Updates."
+    }
+  }
+},"podcast":{
+  "podcastHero": {
+    "badge": "Podcast-Serie",
+    "titleLine1": "Hören.",
+    "titleLine2": "Lernen.",
+    "titleLine3": "Inspirieren lassen.",
+    "description": "Inspirierende Gespräche, barrierefreie Reiseerlebnisse, Experteneinsichten und starke Geschichten aus aller Welt.",
+    "ctaPrimary": "Episoden entdecken",
+    "ctaSecondary": "Neueste Episode",
+    "stats": {
+      "episodes": "Episoden",
+      "listeners": "Hörer",
+      "frequency": "Wöchentliche neue Episoden"
+    }
+  },  "podcastList": {
+    "badge": "Podcast-Episoden",
+    "titleLine1": "Neueste",
+    "titleLine2": "Episoden",
+    "description": "Höre inspirierende Gespräche, Einblicke in Barrierefreiheit und Geschichten aus aller Welt.",
+
+    "empty": {
+      "title": "Noch keine Podcast-Episoden",
+      "description": "Wir bereiten inspirierende Gespräche und Reisestories vor. Neue Episoden folgen bald.",
+      "status": "Demnächst verfügbar"
+    }
+  }, "podcastPlay": {
+    "badge": "Podcast-Folge",
+    "title": "Geschichten, die die Welt bewegen",
+    "description": "Höre echte Reiseerfahrungen, Einblicke in Barrierefreiheit und inspirierende Geschichten aus der ganzen Welt.",
+    "button": "Episode abspielen"
+  }
+},"women": { 
+    "womenHero": {
+    "badge": "Frauen Geschichten",
+    "title": "Inspirierende Reisen",
+    "description": "Eine Sammlung echter Geschichten, die Stärke, Erfahrung und persönliches Wachstum widerspiegeln.",
+
+    "cards": {
+      "1": {
+        "tag": "Stärkung",
+        "title": "Stärke durch Reisen finden",
+        "description": "Eine Reise voller Unabhängigkeit, Selbstvertrauen und neuer Lebenserfahrungen",
+        "cta": "Geschichte lesen"
+      },
+      "2": {
+        "tag": "Lebensstil",
+        "title": "Neuanfang mit Leidenschaft",
+        "description": "Wie kleine Veränderungen und Mut zu einem neuen Lebensabschnitt führen",
+        "cta": "Geschichte lesen"
+      },
+      "3": {
+        "tag": "Inspiration",
+        "title": "Stimmen, die Veränderung inspirieren",
+        "description": "Geschichten über Stärke, Hoffnung und persönliche Transformation",
+        "cta": "Geschichte lesen"
+      }
+    }
+  }, "womenHeader": {
+    "badge": "Geschichten Bereich",
+    "title": "Frauen Geschichten",
+    "subtitle": "Echte Erfahrungen, inspirierende Reisen und starke Stimmen von Frauen aus der ganzen Welt."
+  }
+
+}, "footer": {
+    "brand": {
+      "description": "Wir eröffnen die schönsten Reiseziele der Welt für alle Menschen, unabhängig von körperlichen oder sensorischen Anforderungen."
+    },
+
+    "sections": {
+      "destinations": "Reiseziele",
+      "explore": "Entdecken",
+      "contact": "Kontakt"
+    },
+
+    "links": {
+      "americas": "Amerika",
+      "asia": "Asien-Pazifik",
+      "australia": "Australien",
+      "europe": "Europa",
+
+      "news": "Nachrichten",
+      "accessibility": "Barrierefreiheit",
+      "contact": "Kontakt",
+      "login": "Mitarbeiter Login"
+    },
+
+    "contact": {
+      "whatsapp": "WhatsApp",
+      "note": "Unsere Inhalte folgen Barrierefreiheitsstandards und inklusiven Reiseleitlinien."
+    },
+
+    "bottom": {
+      "copyright": "© 2026 Young Over 60. Alle Rechte vorbehalten.",
+      "credit": "Entworfen mit Fokus auf Barrierefreiheit und visuelle Exzellenz."
+    }
+  }, "navbar": {
+    "news": "Nachrichten",
+    "destination": "Reiseziele",
+    "medical": "Medizinisch",
+    "stories": "Geschichten",
+    "podcast": "Podcast",
+    "about": "Über uns",
+    "searchPlaceholder": "Geschichten suchen...",
+    "language": {
+      "en": "Englisch",
+      "ar": "Arabisch",
+      "de": "Deutsch"
+    }
+  }, "aboutPage": {
+    "header": {
+      "ourStory": "Unsere Geschichte",
+      "titleLine1": "Jenseits von",
+      "titleHighlight": "60,",
+      "titleLine2": "beginnt das Leben neu.",
+      "quote": "Jedes Kapitel verdient ein neues Abenteuer.",
+      "descriptionDesktop": "Die Geschichten, Menschen und die Leidenschaft hinter einer Gemeinschaft, die glaubt, dass jedes neue Kapitel das bisher größte Abenteuer sein kann. Wir feiern Neugier, Verbindung und bedeutungsvolle Reisen in jeder Lebensphase.",
+      "descriptionMobile": "Eine Gemeinschaft, die Neugier, Verbindung und bedeutungsvolle Reisen in jeder Lebensphase feiert.",
+      "ctaPrimary": "Unsere Geschichte entdecken →",
+      "ctaSecondary": "Team kennenlernen"
+    },  "contactMe": {
+    "header": {
+      "title": "Kontakt aufnehmen",
+      "headingLine1": "Lass uns etwas",
+      "headingHighlight": "Bedeutungsvolles",
+      "descriptionDesktop": "Ob Frage, Idee zur Zusammenarbeit oder einfach nur ein Hallo — melde dich gerne bei uns.",
+      "descriptionMobile": "Frage oder Idee? Melde dich gerne."
+    },
+    "founderCard": {
+      "role": "Gründer & Projektleiter",
+      "cta": "Auf LinkedIn ansehen",
+      "quote": "Jenseits von 60 beginnt das Leben neu. Dieses Projekt zeigt, dass Reisen kein Alter kennt."
+    },
+    "form": {
+      "title": "Nachricht senden",
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "button": "Senden"
+    }
+  },  "offerSec": {
+    "header": {
+      "label": "Was wir bieten",
+      "titleLine1": "Alles, was du brauchst, um",
+      "titleHighlight": "selbstbewusst zu reisen",
+      "descriptionDesktop": "Sorgfältig zusammengestellte Ressourcen, inspirierende Geschichten und praktische Anleitungen, die Reisenden über 60 und Menschen mit besonderen Bedürfnissen helfen, die Welt sicher und komfortabel zu entdecken.",
+      "descriptionMobile": "Ressourcen, Geschichten und Tipps für komfortables und sicheres Reisen."
+    },
+    "cards": {
+      "card1": {
+        "title": "Spezialisierte Nachrichten & Einblicke",
+        "text": "Bleibe informiert über Entwicklungen im barrierefreien und Seniorenreisen."
+      },
+      "card2": {
+        "title": "Detaillierte Reiseberichte",
+        "text": "Reiseziele bewertet nach Barrierefreiheit, Komfort und medizinischer Versorgung."
+      },
+      "card3": {
+        "title": "Geschichten & Inspiration",
+        "text": "Inspirierende Reisen von Menschen über 60 und mit besonderen Bedürfnissen."
+      },
+      "card4": {
+        "title": "Praktische Leitfäden & Tipps",
+        "text": "Planung, Versicherung, Transport und Unterkunft abgestimmt auf deine Bedürfnisse."
+      }
+    }
+  }, "philosophySec": {
+    "label": "Unsere Philosophie",
+    "titleLine1": "Das Leben beginnt",
+    "titleHighlight": "nach 60",
+    "quote": "Wahre Jugend lebt in einem neugierigen Geist und einem abenteuerlichen Herzen.",
+    "paragraph1Desktop": "Wir lehnen die Vorstellung ab, einen Menschen auf seine Zahl im Reisepass zu reduzieren. Sechzig ist nicht das Ende des Weges – es ist ein Neuanfang voller Möglichkeiten für Entdeckung, Wachstum und unvergessliche Erlebnisse.",
+    "paragraph1Mobile": "Alter ist nur eine Zahl – 60 ist ein neuer Anfang voller Entdeckungen und Wachstum.",
+    "paragraph2Desktop": "Wahre Jugend wird nicht durch das Alter bestimmt, sondern durch Neugier, Offenheit und die Bereitschaft, die Welt zu entdecken.",
+    "paragraph2Mobile": "Wahre Jugend ist Neugier, Offenheit und Entdeckungsdrang.",
+    "paragraph3Desktop": "Bei Young Over 60 hat jeder Reisende eine Geschichte zu erzählen, und jede Reise ist eine Chance, das Leben neu zu entdecken. Die Welt ist zu schön, um sie nur aus dem Fenster zu sehen, und dein Recht zu reisen endet nie.",
+    "paragraph3Mobile": "Jede Reise ist eine Chance, das Leben neu zu entdecken – dein Recht zu reisen endet nie.",
+    "cta": "Weiter entdecken"
+  }, "vision": {
+    "sectionLabel": "Über Young Over 60",
+    "titleLine1": "Reisen kennt",
+    "titleHighlight": "kein Alter",
+    "quote": "Jenseits der 60 beginnt das Leben neu.",
+
+    "cardTitle": "Young Over 60",
+
+    "text1": "Wir glauben, dass Reisen weder Luxus noch Privileg einer bestimmten Altersgruppe ist. Es ist ein Grundrecht für alle, unabhängig von Alter oder körperlichen Fähigkeiten.",
+    "text2": "Reisen öffnet Fenster zur Schönheit der Welt, verbindet Kulturen und trägt zum geistigen und körperlichen Wohlbefinden bei.",
+
+    "visionTitle": "Unsere Vision: Reisen ohne Grenzen",
+    "visionText1": "Wir möchten Reisen für Menschen über 60 und Personen mit besonderen Bedürfnissen zugänglich und angenehm machen.",
+    "visionText2": "Unsere Mission ist es, veraltete Stereotype zu überwinden und zu zeigen, dass Abenteuer und Entdeckung kein Ablaufdatum haben.",
+
+    "stats": {
+      "seniors": "Feier des Lebens jenseits traditioneller Grenzen.",
+      "infinity": "Unendliche Möglichkeiten, die Welt zu entdecken.",
+      "accessibility": "Engagiert für barrierefreies und inklusives Reisen."
+    }
+  }
+  }}
