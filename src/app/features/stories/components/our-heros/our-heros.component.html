@@ -10,45 +10,49 @@
   <div class="max-w-[1200px] mx-auto px-6 relative z-10">
     <!-- header -->
     <div class="text-center mb-14">
-      <span class="text-[#d89d2e] tracking-[0.3em] text-sm uppercase"> Women Stories </span>
+      <span class="text-[#d89d2e] tracking-[0.3em] text-sm uppercase">
+        {{ 'women.womenHeader.badge' | translate }}
+      </span>
 
       <h2 class="text-3xl md:text-5xl font-semibold text-white mt-4">
-        Inspiring <span class="text-[#d89d2e] italic">Journeys</span>
+        {{ 'women.womenHero.title' | translate }}
       </h2>
 
       <p class="text-white/60 mt-4 max-w-2xl mx-auto text-sm md:text-base">
-        A collection of real stories that reflect strength, experience, and personal growth.
+        {{ 'women.womenHero.description' | translate }}
       </p>
     </div>
 
     <!-- cards grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <!-- CARD -->
+      <!-- CARD 1 -->
       <div
         class="group relative rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-xl hover:border-[#d89d2e]/40 transition"
       >
-        <!-- image -->
         <div class="relative h-64 flex justify-center items-center overflow-hidden">
           <img
             src="/assets/images/women avatar.jpg"
             class="object-cover group-hover:scale-110 p-5 rounded-full h-70 w-70 transition duration-500"
           />
-
-          <!-- overlay -->
           <div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition"></div>
         </div>
 
-        <!-- content -->
         <div class="p-6">
-          <span class="text-[#d89d2e] text-xs tracking-widest uppercase"> Empowerment </span>
+          <span class="text-[#d89d2e] text-xs tracking-widest uppercase">
+            {{ 'women.womenHero.cards.1.tag' | translate }}
+          </span>
 
-          <h3 class="text-white text-xl mt-3 font-semibold">Finding Strength Through Travel</h3>
+          <h3 class="text-white text-xl mt-3 font-semibold">
+            {{ 'women.womenHero.cards.1.title' | translate }}
+          </h3>
 
           <p class="text-white/60 text-sm mt-3 leading-relaxed">
-            A journey of independence, confidence, and rediscovering life through new experiences.
+            {{ 'women.womenHero.cards.1.description' | translate }}
           </p>
 
-          <a class="inline-block mt-5 text-[#d89d2e] text-sm hover:underline"> Read Story → </a>
+          <a class="inline-block mt-5 text-[#d89d2e] text-sm hover:underline">
+            {{ 'women.womenHero.cards.1.cta' | translate }} →
+          </a>
         </div>
       </div>
 
@@ -65,15 +69,21 @@
         </div>
 
         <div class="p-6">
-          <span class="text-[#d89d2e] text-xs tracking-widest uppercase"> Lifestyle </span>
+          <span class="text-[#d89d2e] text-xs tracking-widest uppercase">
+            {{ 'women.womenHero.cards.2.tag' | translate }}
+          </span>
 
-          <h3 class="text-white text-xl mt-3 font-semibold">Rebuilding Life With Passion</h3>
+          <h3 class="text-white text-xl mt-3 font-semibold">
+            {{ 'women.womenHero.cards.2.title' | translate }}
+          </h3>
 
           <p class="text-white/60 text-sm mt-3 leading-relaxed">
-            How small changes and courage lead to a completely new beginning.
+            {{ 'women.womenHero.cards.2.description' | translate }}
           </p>
 
-          <a class="inline-block mt-5 text-[#d89d2e] text-sm hover:underline"> Read Story → </a>
+          <a class="inline-block mt-5 text-[#d89d2e] text-sm hover:underline">
+            {{ 'women.womenHero.cards.2.cta' | translate }} →
+          </a>
         </div>
       </div>
 
@@ -90,15 +100,21 @@
         </div>
 
         <div class="p-6">
-          <span class="text-[#d89d2e] text-xs tracking-widest uppercase"> Inspiration </span>
+          <span class="text-[#d89d2e] text-xs tracking-widest uppercase">
+            {{ 'women.womenHero.cards.3.tag' | translate }}
+          </span>
 
-          <h3 class="text-white text-xl mt-3 font-semibold">Voices That Inspire Change</h3>
+          <h3 class="text-white text-xl mt-3 font-semibold">
+            {{ 'women.womenHero.cards.3.title' | translate }}
+          </h3>
 
           <p class="text-white/60 text-sm mt-3 leading-relaxed">
-            Stories that highlight resilience, hope, and personal transformation.
+            {{ 'women.womenHero.cards.3.description' | translate }}
           </p>
 
-          <a class="inline-block mt-5 text-[#d89d2e] text-sm hover:underline"> Read Story → </a>
+          <a class="inline-block mt-5 text-[#d89d2e] text-sm hover:underline">
+            {{ 'women.womenHero.cards.3.cta' | translate }} →
+          </a>
         </div>
       </div>
     </div>

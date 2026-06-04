@@ -11,15 +11,18 @@
 
   <div class="text-center px-6 z-10">
     <!-- number -->
-    <h1 class="text-[120px] md:text-[180px] font-bold text-[#d89d2e] leading-none">404</h1>
+    <h1 class="text-[120px] md:text-[180px] font-bold text-[#d89d2e] leading-none">
+      {{ 'notFoundPage.errorCode' | translate }}
+    </h1>
 
     <!-- title -->
-    <h2 class="text-2xl md:text-3xl font-semibold mt-4">Page Not Found</h2>
+    <h2 class="text-2xl md:text-3xl font-semibold mt-4">
+      {{ 'notFoundPage.title' | translate }}
+    </h2>
 
     <!-- description -->
     <p class="text-white/60 mt-4 max-w-md mx-auto text-sm md:text-base leading-relaxed">
-      The page you’re looking for doesn’t exist or has been moved. Let’s get you back to a safe
-      place.
+      {{ 'notFoundPage.description' | translate }}
     </p>
 
     <!-- buttons -->
@@ -28,14 +31,14 @@
         routerLink="/"
         class="px-6 py-3 rounded-full bg-[#d89d2e] text-[#0B1F3B] font-medium hover:scale-105 transition"
       >
-        Go Home
+        {{ 'notFoundPage.buttons.home' | translate }}
       </a>
 
       <a
         routerLink="/news"
         class="px-6 py-3 rounded-full border border-[#d89d2e]/40 text-white hover:bg-white/10 transition"
       >
-        Explore News
+        {{ 'notFoundPage.buttons.news' | translate }}
       </a>
     </div>
   </div>

@@ -16,7 +16,7 @@
             routerLinkActive="text-[#d89d2e]"
             class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
           >
-            News
+            {{ 'navbar.news' | translate }}
           </a>
         </li>
 
@@ -26,7 +26,7 @@
             routerLinkActive="text-[#d89d2e]"
             class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
           >
-            Destination
+            {{ 'navbar.destination' | translate }}
           </a>
         </li>
 
@@ -36,52 +36,9 @@
             routerLinkActive="text-[#d89d2e]"
             class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
           >
-            Medical
+            {{ 'navbar.medical' | translate }}
           </a>
         </li>
-        <!-- <li class="relative group">
-          <a
-            href="javascript:void(0)"
-            class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] group-hover:after:w-full after:transition-all"
-          >
-            Experience
-          </a>
-           Dropdown -->
-        <!--  <div
-            class="absolute left-0 top-full mt-4 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible translate-y-2 group-hover:translate-y-0 transition-all duration-300 bg-[#0B1F3B] border border-[#d89d2e]/30 rounded-xl shadow-2xl overflow-hidden"
-          >
-            <a
-              [routerLink]="['/experience', 'animalExperiences']"
-              class="block px-5 py-3 text-white/80 hover:text-[#d89d2e] hover:bg-white/5"
-            >
-              Animal Encounters
-            </a>
-            <a
-              [routerLink]="['/experience', 'cruises']"
-              class="block px-5 py-3 text-white/80 hover:text-[#d89d2e] hover:bg-white/5"
-            >
-              cruises
-            </a>
-            <a
-              [routerLink]="['/experience', 'familyTravel']"
-              class="block px-5 py-3 text-white/80 hover:text-[#d89d2e] hover:bg-white/5"
-            >
-              Family Travel
-            </a>
-            <a
-              [routerLink]="['/experience', 'gearAndSport']"
-              class="block px-5 py-3 text-white/80 hover:text-[#d89d2e] hover:bg-white/5"
-            >
-              Gear & Sport
-            </a>
-            <a
-              [routerLink]="['/experience', 'luxuryExperiences']"
-              class="block px-5 py-3 text-white/80 hover:text-[#d89d2e] hover:bg-white/5"
-            >
-              Luxury Experiences
-            </a>
-          </div>
-        </li> -->
 
         <li>
           <a
@@ -89,7 +46,7 @@
             routerLinkActive="text-[#d89d2e]"
             class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
           >
-            Stories
+            {{ 'navbar.stories' | translate }}
           </a>
         </li>
 
@@ -99,7 +56,7 @@
             routerLinkActive="text-[#d89d2e]"
             class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
           >
-            Podcast
+            {{ 'navbar.podcast' | translate }}
           </a>
         </li>
 
@@ -109,7 +66,7 @@
             routerLinkActive="text-[#d89d2e]"
             class="text-white/80 hover:text-white transition font-medium relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#d89d2e] hover:after:w-full after:transition-all"
           >
-            About
+            {{ 'navbar.about' | translate }}
           </a>
         </li>
       </ul>
@@ -131,14 +88,13 @@
             >
               <input
                 type="text"
-                placeholder="Search stories..."
+                [placeholder]="'navbar.searchPlaceholder' | translate"
                 class="w-full h-11 px-4 rounded-xl bg-white/10 text-white placeholder:text-white/40 outline-none border border-white/10 focus:border-[#d89d2e]"
               />
             </div>
           }
         </div>
 
-        <!-- LANGUAGE -->
         <!-- LANGUAGE -->
         <div class="relative language-dropdown">
           <button
@@ -163,21 +119,21 @@
               (click)="changeLang('en')"
               class="w-full text-left px-5 py-3 text-white/80 hover:bg-white/5 hover:text-[#d89d2e]"
             >
-              🇺🇸 English
+              🇺🇸 {{ 'navbar.language.en' | translate }}
             </button>
 
             <button
               (click)="changeLang('ar')"
               class="w-full text-left px-5 py-3 text-white/80 hover:bg-white/5 hover:text-[#d89d2e]"
             >
-              🇪🇬 العربية
+              🇪🇬 {{ 'navbar.language.ar' | translate }}
             </button>
 
             <button
               (click)="changeLang('du')"
               class="w-full text-left px-5 py-3 text-white/80 hover:bg-white/5 hover:text-[#d89d2e]"
             >
-              🇩🇪 Deutsch
+              🇩🇪 {{ 'navbar.language.de' | translate }}
             </button>
           </div>
         </div>
@@ -201,112 +157,50 @@
     <div class="px-6 py-6 flex flex-col gap-5">
       <a
         routerLink="/news"
-        routerLinkActive="text-[#d89d2e]"
         (click)="closeMobileMenu()"
-        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30"
       >
-        News
+        {{ 'navbar.news' | translate }}
       </a>
+
       <a
-        (click)="closeMobileMenu()"
         routerLink="/destination"
-        routerLinkActive="text-[#d89d2e]"
-        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+        (click)="closeMobileMenu()"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30"
       >
-        Destination
+        {{ 'navbar.destination' | translate }}
       </a>
-      <!-- <div class="border-b border-[#d89d2e]/30 pb-3">
-        <button
-          (click)="toggleExperienceMenu()"
-          class="w-full flex items-center justify-between text-white/80 hover:text-[#d89d2e] py-3"
-        >
-          <span>Experience</span>
 
-          <i
-            class="fa-solid fa-chevron-down transition duration-300"
-            [class.rotate-180]="mobileExperienceOpen"
-          ></i>
-        </button>
-
-        <div
-          class="overflow-hidden transition-all duration-300"
-          [class.max-h-0]="!mobileExperienceOpen"
-          [class.max-h-[500px]]="mobileExperienceOpen"
-        >
-          <div class="pl-4 flex flex-col">
-            <a
-              [routerLink]="['/experience', 'animalExperiences']"
-              (click)="closeMobileMenu()"
-              class="py-3 text-white/70 hover:text-[#d89d2e]"
-            >
-              Animal Encounters
-            </a>
-
-            <a
-              [routerLink]="['/experience', 'cruises']"
-              (click)="closeMobileMenu()"
-              class="py-3 text-white/70 hover:text-[#d89d2e]"
-            >
-              cruises
-            </a>
-
-            <a
-              [routerLink]="['/experience', 'familyTravel']"
-              (click)="closeMobileMenu()"
-              class="py-3 text-white/70 hover:text-[#d89d2e]"
-            >
-              Family Travel
-            </a>
-
-            <a
-              [routerLink]="['/experience', 'gearAndSport']"
-              (click)="closeMobileMenu()"
-              class="py-3 text-white/70 hover:text-[#d89d2e]"
-            >
-              Gear & Sport
-            </a>
-
-            <a
-              [routerLink]="['/experience', 'luxury-experiences']"
-              (click)="closeMobileMenu()"
-              class="py-3 text-white/70 hover:text-[#d89d2e]"
-            >
-              Luxury Experiences
-            </a>
-          </div>
-        </div>
-      </div> -->
       <a
         routerLink="/medical"
-        routerLinkActive="text-[#d89d2e]"
         (click)="closeMobileMenu()"
-        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30"
       >
-        Medical
+        {{ 'navbar.medical' | translate }}
       </a>
+
       <a
         routerLink="/stories"
-        routerLinkActive="text-[#d89d2e]"
         (click)="closeMobileMenu()"
-        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30"
       >
-        Stories
+        {{ 'navbar.stories' | translate }}
       </a>
+
       <a
         routerLink="/podcast"
-        routerLinkActive="text-[#d89d2e]"
         (click)="closeMobileMenu()"
-        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30"
       >
-        Podcast
+        {{ 'navbar.podcast' | translate }}
       </a>
 
       <a
         routerLink="/about"
         (click)="closeMobileMenu()"
-        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30 transition"
+        class="text-white/80 hover:text-[#d89d2e] py-3 border-b border-[#d89d2e]/30"
       >
-        About
+        {{ 'navbar.about' | translate }}
       </a>
     </div>
   </div>

@@ -18,8 +18,13 @@
           <i class="fa-solid fa-hotel"></i>
         </div>
 
-        <h3 class="font-bold text-[12px] md:text-[16px] text-[#0B1F3B]">ACCOMMODATION</h3>
-        <p class="mt-2 text-[10px] md:text-sm text-gray-500">Hotels & Stays</p>
+        <h3 class="font-bold text-[12px] md:text-[16px] text-[#0B1F3B]">
+          {{ 'plansSec.tabs.accommodation.title' | translate }}
+        </h3>
+
+        <p class="mt-2 text-[10px] md:text-sm text-gray-500">
+          {{ 'plansSec.tabs.accommodation.subtitle' | translate }}
+        </p>
       </button>
 
       <!-- TIPS -->
@@ -37,8 +42,13 @@
           <i class="fa-regular fa-lightbulb"></i>
         </div>
 
-        <h3 class="font-bold text-[12px] md:text-[16px] text-[#0B1F3B]">TIPS & TRICKS</h3>
-        <p class="mt-2 text-[10px] md:text-sm text-gray-500">Smart Travel Advice</p>
+        <h3 class="font-bold text-[12px] md:text-[16px] text-[#0B1F3B]">
+          {{ 'plansSec.tabs.tips.title' | translate }}
+        </h3>
+
+        <p class="mt-2 text-[10px] md:text-sm text-gray-500">
+          {{ 'plansSec.tabs.tips.subtitle' | translate }}
+        </p>
       </button>
 
       <!-- TRANSPORT -->
@@ -56,8 +66,13 @@
           <i class="fa-solid fa-plane"></i>
         </div>
 
-        <h3 class="font-bold text-[12px] md:text-[16px] text-[#0B1F3B]">TRANSPORT</h3>
-        <p class="mt-2 text-[10px] md:text-sm text-gray-500">Travel & Mobility</p>
+        <h3 class="font-bold text-[12px] md:text-[16px] text-[#0B1F3B]">
+          {{ 'plansSec.tabs.transport.title' | translate }}
+        </h3>
+
+        <p class="mt-2 text-[10px] md:text-sm text-gray-500">
+          {{ 'plansSec.tabs.transport.subtitle' | translate }}
+        </p>
       </button>
 
       <!-- GEAR -->
@@ -75,89 +90,110 @@
           <i class="fa-solid fa-suitcase-medical"></i>
         </div>
 
-        <h3 class="font-bold text-[12px] md:text-[16px] text-[#0B1F3B]">GEAR & SUPPORT</h3>
-        <p class="mt-2 text-[10px] md:text-sm text-gray-500">Equipment & Assistance</p>
+        <h3 class="font-bold text-[12px] md:text-[16px] text-[#0B1F3B]">
+          {{ 'plansSec.tabs.gear.title' | translate }}
+        </h3>
+
+        <p class="mt-2 text-[10px] md:text-sm text-gray-500">
+          {{ 'plansSec.tabs.gear.subtitle' | translate }}
+        </p>
       </button>
     </div>
 
     <!-- CONTENT -->
     <div class="mt-12 text-center">
       @if (activeTab === 'accommodation') {
-        <h2 class="text-3xl font-bold text-[#0B1F3B]">Best Stays For You</h2>
+        <h2 class="text-3xl font-bold text-[#0B1F3B]">
+          {{ 'plansSec.tabs.accommodation.heading' | translate }}
+        </h2>
+
         <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
-          Discover comfortable, accessible and carefully selected accommodations for your journey.
+          {{ 'plansSec.tabs.accommodation.description' | translate }}
         </p>
+
         <div class="mt-16 flex flex-col items-center justify-center text-center">
-          <!-- Icon -->
           <div class="w-20 h-20 rounded-full bg-[#d89d2e]/10 flex items-center justify-center mb-6">
             <i class="fa-regular fa-folder-open text-3xl text-[#d89d2e]"></i>
           </div>
 
-          <!-- Text -->
-          <h3 class="text-2xl font-bold text-[#0B1F3B]">No items yet</h3>
+          <h3 class="text-2xl font-bold text-[#0B1F3B]">
+            {{ 'plansSec.tabs.accommodation.emptyTitle' | translate }}
+          </h3>
 
           <p class="mt-3 text-gray-500 max-w-md">
-            We’re currently preparing content for this section. Please check back soon for updates.
+            {{ 'plansSec.tabs.accommodation.emptyText' | translate }}
           </p>
         </div>
       }
 
       @if (activeTab === 'tips') {
-        <h2 class="text-3xl font-bold text-[#0B1F3B]">Smart Travel Tips</h2>
+        <h2 class="text-3xl font-bold text-[#0B1F3B]">
+          {{ 'plansSec.tabs.tips.heading' | translate }}
+        </h2>
+
         <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
-          Practical advice to make your trip easier, safer, and more enjoyable.
+          {{ 'plansSec.tabs.tips.description' | translate }}
         </p>
+
         <div class="mt-16 flex flex-col items-center justify-center text-center">
-          <!-- Icon -->
           <div class="w-20 h-20 rounded-full bg-[#d89d2e]/10 flex items-center justify-center mb-6">
             <i class="fa-regular fa-folder-open text-3xl text-[#d89d2e]"></i>
           </div>
 
-          <!-- Text -->
-          <h3 class="text-2xl font-bold text-[#0B1F3B]">No items yet</h3>
+          <h3 class="text-2xl font-bold text-[#0B1F3B]">
+            {{ 'plansSec.tabs.tips.emptyTitle' | translate }}
+          </h3>
 
           <p class="mt-3 text-gray-500 max-w-md">
-            We’re currently preparing content for this section. Please check back soon for updates.
+            {{ 'plansSec.tabs.tips.emptyText' | translate }}
           </p>
         </div>
       }
 
       @if (activeTab === 'transport') {
-        <h2 class="text-3xl font-bold text-[#0B1F3B]">Move Comfortably</h2>
+        <h2 class="text-3xl font-bold text-[#0B1F3B]">
+          {{ 'plansSec.tabs.transport.heading' | translate }}
+        </h2>
+
         <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
-          Accessible transport options designed for stress-free travel.
+          {{ 'plansSec.tabs.transport.description' | translate }}
         </p>
+
         <div class="mt-16 flex flex-col items-center justify-center text-center">
-          <!-- Icon -->
           <div class="w-20 h-20 rounded-full bg-[#d89d2e]/10 flex items-center justify-center mb-6">
             <i class="fa-regular fa-folder-open text-3xl text-[#d89d2e]"></i>
           </div>
 
-          <!-- Text -->
-          <h3 class="text-2xl font-bold text-[#0B1F3B]">No items yet</h3>
+          <h3 class="text-2xl font-bold text-[#0B1F3B]">
+            {{ 'plansSec.tabs.transport.emptyTitle' | translate }}
+          </h3>
 
           <p class="mt-3 text-gray-500 max-w-md">
-            We’re currently preparing content for this section. Please check back soon for updates.
+            {{ 'plansSec.tabs.transport.emptyText' | translate }}
           </p>
         </div>
       }
 
       @if (activeTab === 'gear') {
-        <h2 class="text-3xl font-bold text-[#0B1F3B]">Gear & Support</h2>
+        <h2 class="text-3xl font-bold text-[#0B1F3B]">
+          {{ 'plansSec.tabs.gear.heading' | translate }}
+        </h2>
+
         <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
-          Essential equipment and support tools for safe and comfortable travel.
+          {{ 'plansSec.tabs.gear.description' | translate }}
         </p>
+
         <div class="mt-16 flex flex-col items-center justify-center text-center">
-          <!-- Icon -->
           <div class="w-20 h-20 rounded-full bg-[#d89d2e]/10 flex items-center justify-center mb-6">
             <i class="fa-regular fa-folder-open text-3xl text-[#d89d2e]"></i>
           </div>
 
-          <!-- Text -->
-          <h3 class="text-2xl font-bold text-[#0B1F3B]">No items yet</h3>
+          <h3 class="text-2xl font-bold text-[#0B1F3B]">
+            {{ 'plansSec.tabs.gear.emptyTitle' | translate }}
+          </h3>
 
           <p class="mt-3 text-gray-500 max-w-md">
-            We’re currently preparing content for this section. Please check back soon for updates.
+            {{ 'plansSec.tabs.gear.emptyText' | translate }}
           </p>
         </div>
       }

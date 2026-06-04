@@ -4,43 +4,35 @@
       <!-- BRAND -->
       <div class="lg:col-span-2">
         <a routerLink="/" class="inline-block">
-          <img
-            src="/assets/images/logo.jpeg"
-            class="w-[110px] rounded-2xl mb-5"
-            alt="Young Over 60"
-          />
+          <img src="/assets/images/logo.jpeg" class="w-[110px] rounded-2xl mb-5" alt="logo" />
         </a>
 
         <p class="text-white/65 text-sm leading-7 max-w-md">
-          Unlocking the world's most beautiful destinations for everyone, regardless of physical or
-          sensory requirements.
+          {{ 'footer.brand.description' | translate }}
         </p>
 
         <!-- SOCIAL -->
         <div class="flex gap-3 mt-6">
           <a
-            href="#"
             class="w-10 h-10 rounded-full border border-[#d89d2e]/25 flex items-center justify-center text-white/70 hover:bg-[#d89d2e] hover:text-[#0B1F3B] transition-all duration-300"
           >
             <i class="fab fa-facebook-f"></i>
           </a>
 
           <a
-            href="#"
             class="w-10 h-10 rounded-full border border-[#d89d2e]/25 flex items-center justify-center text-white/70 hover:bg-[#d89d2e] hover:text-[#0B1F3B] transition-all duration-300"
           >
             <i class="fab fa-instagram"></i>
           </a>
 
           <a
-            href="https://www.linkedin.com/in/zakaria-dawoud-26902b180?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            href="https://www.linkedin.com/in/zakaria-dawoud-26902b180"
             class="w-10 h-10 rounded-full border border-[#d89d2e]/25 flex items-center justify-center text-white/70 hover:bg-[#d89d2e] hover:text-[#0B1F3B] transition-all duration-300"
           >
             <i class="fab fa-linkedin-in"></i>
           </a>
 
           <a
-            href="#"
             class="w-10 h-10 rounded-full border border-[#d89d2e]/25 flex items-center justify-center text-white/70 hover:bg-[#d89d2e] hover:text-[#0B1F3B] transition-all duration-300"
           >
             <i class="fab fa-youtube"></i>
@@ -50,62 +42,70 @@
 
       <!-- DESTINATIONS -->
       <div>
-        <h4 class="text-[#d89d2e] font-semibold mb-5">Destinations</h4>
+        <h4 class="text-[#d89d2e] font-semibold mb-5">
+          {{ 'footer.sections.destinations' | translate }}
+        </h4>
 
         <ul class="space-y-3 text-sm">
           <li>
-            <a routerLink="/americas" class="text-white/65 hover:text-[#d89d2e]"> Americas </a>
+            <a class="text-white/65 hover:text-[#d89d2e]">{{
+              'footer.links.americas' | translate
+            }}</a>
           </li>
-
           <li>
-            <a routerLink="/asia-pacific" class="text-white/65 hover:text-[#d89d2e]">
-              Asia Pacific
-            </a>
+            <a class="text-white/65 hover:text-[#d89d2e]">{{ 'footer.links.asia' | translate }}</a>
           </li>
-
           <li>
-            <a routerLink="/australia" class="text-white/65 hover:text-[#d89d2e]"> Australia </a>
+            <a class="text-white/65 hover:text-[#d89d2e]">{{
+              'footer.links.australia' | translate
+            }}</a>
           </li>
-
           <li>
-            <a routerLink="/europe" class="text-white/65 hover:text-[#d89d2e]"> Europe </a>
+            <a class="text-white/65 hover:text-[#d89d2e]">{{
+              'footer.links.europe' | translate
+            }}</a>
           </li>
         </ul>
       </div>
 
       <!-- EXPLORE -->
       <div>
-        <h4 class="text-[#d89d2e] font-semibold mb-5">Explore</h4>
+        <h4 class="text-[#d89d2e] font-semibold mb-5">
+          {{ 'footer.sections.explore' | translate }}
+        </h4>
 
         <ul class="space-y-3 text-sm">
           <li>
-            <a routerLink="/news" class="text-white/65 hover:text-[#d89d2e]"> News </a>
+            <a routerLink="/news" class="text-white/65 hover:text-[#d89d2e]">{{
+              'footer.links.news' | translate
+            }}</a>
           </li>
-
           <li>
-            <a routerLink="/accessibility" class="text-white/65 hover:text-[#d89d2e]">
-              Accessibility
-            </a>
+            <a routerLink="/accessibility" class="text-white/65 hover:text-[#d89d2e]">{{
+              'footer.links.accessibility' | translate
+            }}</a>
           </li>
-
           <li>
-            <a routerLink="/contact" class="text-white/65 hover:text-[#d89d2e]"> Contact </a>
+            <a routerLink="/contact" class="text-white/65 hover:text-[#d89d2e]">{{
+              'footer.links.contact' | translate
+            }}</a>
           </li>
-
           <li>
-            <a routerLink="/admin/login" class="text-white/65 hover:text-[#d89d2e]">
-              Staff Login
-            </a>
+            <a routerLink="/admin/login" class="text-white/65 hover:text-[#d89d2e]">{{
+              'footer.links.login' | translate
+            }}</a>
           </li>
         </ul>
       </div>
 
       <!-- CONTACT -->
       <div>
-        <h4 class="text-[#d89d2e] font-semibold mb-5">Contact</h4>
+        <h4 class="text-[#d89d2e] font-semibold mb-5">
+          {{ 'footer.sections.contact' | translate }}
+        </h4>
 
         <a
-          href="https://wa.me/+4917676503041?text='Welcome to the Young Over 60 platform – your inquiry relates to trips, offers, news, and the services provided.'"
+          href="https://wa.me/+4917676503041"
           target="_blank"
           class="flex items-center gap-3 rounded-xl border border-[#d89d2e]/20 bg-white/5 p-3 hover:bg-white/10 transition"
         >
@@ -114,14 +114,15 @@
           </div>
 
           <div>
-            <p class="text-[11px] text-white/45 uppercase">WhatsApp</p>
-
+            <p class="text-[11px] text-white/45 uppercase">
+              {{ 'footer.contact.whatsapp' | translate }}
+            </p>
             <p class="text-sm text-white">+49 176 765 03041</p>
           </div>
         </a>
 
         <p class="text-white/50 text-xs mt-4 leading-6">
-          Our content follows accessibility standards and inclusive travel guidelines.
+          {{ 'footer.contact.note' | translate }}
         </p>
       </div>
     </div>
@@ -132,9 +133,13 @@
     <div
       class="max-w-[1400px] mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-3"
     >
-      <p class="text-white/40 text-sm">© 2026 Young Over 60. All Rights Reserved.</p>
+      <p class="text-white/40 text-sm">
+        {{ 'footer.bottom.copyright' | translate }}
+      </p>
 
-      <p class="text-[#d89d2e] text-sm">Designed with accessibility & visual excellence.</p>
+      <p class="text-[#d89d2e] text-sm">
+        {{ 'footer.bottom.credit' | translate }}
+      </p>
     </div>
   </div>
 </footer>
