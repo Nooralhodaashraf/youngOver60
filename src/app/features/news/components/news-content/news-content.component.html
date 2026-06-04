@@ -2,15 +2,19 @@
   <div class="max-w-[1200px] mx-auto px-6">
     <!-- Section Header -->
     <div class="text-center mb-16">
-      <span class="text-[#d89d2e] tracking-[0.25em] text-sm uppercase"> Latest Articles </span>
+      <span class="text-[#d89d2e] tracking-[0.25em] text-sm uppercase">
+        {{ 'news.newsContent.header.badge' | translate }}
+      </span>
 
       <h2 class="text-3xl md:text-5xl font-semibold text-[#0B1F3B] mt-4">
-        News Coming <span class="text-[#d89d2e] italic">Soon</span>
+        {{ 'news.newsContent.header.title.line1' | translate }}
+        <span class="text-[#d89d2e] italic">
+          {{ 'news.newsContent.header.title.highlight' | translate }}
+        </span>
       </h2>
 
       <p class="max-w-2xl mx-auto text-gray-500 mt-5">
-        We're preparing exciting travel updates, accessibility insights, destination highlights and
-        inspiring stories.
+        {{ 'news.newsContent.header.description' | translate }}
       </p>
     </div>
 
@@ -31,11 +35,12 @@
           <i class="fa-regular fa-newspaper text-4xl text-[#d89d2e]"></i>
         </div>
 
-        <h3 class="text-white text-2xl md:text-3xl font-semibold">No News Available Yet</h3>
+        <h3 class="text-white text-2xl md:text-3xl font-semibold">
+          {{ 'news.newsContent.emptyState.title' | translate }}
+        </h3>
 
         <p class="text-white/60 mt-4 max-w-xl mx-auto">
-          New articles and travel stories will appear here soon. Check back later for the latest
-          updates and featured content.
+          {{ 'news.newsContent.emptyState.description' | translate }}
         </p>
 
         <!-- Decorative Dots -->

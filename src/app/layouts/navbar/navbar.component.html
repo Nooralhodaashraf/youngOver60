@@ -149,7 +149,9 @@
           </button>
 
           <div
-            class="absolute right-0 top-full mt-3 w-44 bg-[#10284c] rounded-2xl border border-[#d89d2e]/30 overflow-hidden shadow-2xl transition-all duration-300"
+            class="absolute top-full mt-3 w-44 bg-[#10284c] rounded-2xl border border-[#d89d2e]/30 overflow-hidden shadow-2xl transition-all duration-300"
+            [class.right-0]="direction === 'ltr'"
+            [class.-right-40]="direction === 'rtl'"
             [class.opacity-0]="!languageMenuOpen"
             [class.invisible]="!languageMenuOpen"
             [class.translate-y-2]="!languageMenuOpen"
@@ -158,18 +160,21 @@
             [class.translate-y-0]="languageMenuOpen"
           >
             <button
+              (click)="changeLang('en')"
               class="w-full text-left px-5 py-3 text-white/80 hover:bg-white/5 hover:text-[#d89d2e]"
             >
               🇺🇸 English
             </button>
 
             <button
+              (click)="changeLang('ar')"
               class="w-full text-left px-5 py-3 text-white/80 hover:bg-white/5 hover:text-[#d89d2e]"
             >
               🇪🇬 العربية
             </button>
 
             <button
+              (click)="changeLang('du')"
               class="w-full text-left px-5 py-3 text-white/80 hover:bg-white/5 hover:text-[#d89d2e]"
             >
               🇩🇪 Deutsch

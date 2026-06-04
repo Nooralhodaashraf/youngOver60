@@ -10,7 +10,7 @@
 
   <!-- Sound Waves -->
   <div class="absolute inset-0 flex items-center justify-center opacity-20">
-    <div class="flex items-end gap-3">
+    <div class="flex items-end gap-3 flex-row">
       <span class="w-2 h-16 bg-[#d89d2e] rounded-full animate-pulse"></span>
       <span class="w-2 h-28 bg-[#d89d2e] rounded-full animate-pulse"></span>
       <span class="w-2 h-40 bg-[#d89d2e] rounded-full animate-pulse"></span>
@@ -28,22 +28,23 @@
         class="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-[#d89d2e]/30 bg-[#d89d2e]/10 text-[#d89d2e] uppercase tracking-[0.25em] text-sm"
       >
         <i class="fa-solid fa-microphone-lines"></i>
-        Podcast Series
+        {{ 'podcast.podcastHero.badge' | translate }}
       </span>
 
       <!-- Title -->
       <h1 class="mt-6 text-5xl md:text-7xl font-semibold text-white leading-tight">
-        Listen.
+        {{ 'podcast.podcastHero.titleLine1' | translate }}
         <br />
-        Learn.
+        {{ 'podcast.podcastHero.titleLine2' | translate }}
         <br />
-        <span class="text-[#d89d2e] italic">Be Inspired.</span>
+        <span class="text-[#d89d2e] italic">
+          {{ 'podcast.podcastHero.titleLine3' | translate }}
+        </span>
       </h1>
 
       <!-- Description -->
       <p class="mt-6 text-white/70 text-lg max-w-2xl leading-relaxed">
-        Inspiring conversations, accessible travel experiences, expert insights and powerful stories
-        from around the world.
+        {{ 'podcast.podcastHero.description' | translate }}
       </p>
 
       <!-- Buttons -->
@@ -52,32 +53,44 @@
           href="#episodes"
           class="px-8 py-3 rounded-full bg-[#d89d2e] text-[#081629] font-semibold hover:scale-105 transition"
         >
-          Explore Episodes
+          {{ 'podcast.podcastHero.ctaPrimary' | translate }}
         </a>
 
         <a
           href="#latest"
           class="px-8 py-3 rounded-full border border-[#d89d2e]/30 text-white hover:bg-[#d89d2e]/10 transition"
         >
-          Latest Episode
+          {{ 'podcast.podcastHero.ctaSecondary' | translate }}
         </a>
       </div>
 
       <!-- Stats -->
       <div class="flex flex-wrap gap-10 mt-12">
         <div class="group cursor-pointer">
-          <h3 class="text-4xl font-bold text-[#d89d2e] group-hover:scale-110 transition">50+</h3>
-          <p class="text-white/60 mt-1">Episodes</p>
+          <h3 class="text-4xl font-bold text-[#d89d2e] group-hover:scale-110 transition">
+            {{ 'podcast.podcastHero.stats.episodes' | translate }}
+          </h3>
+          <p class="text-white/60 mt-1">
+            {{ 'podcast.podcastHero.stats.episodes' | translate }}
+          </p>
         </div>
 
         <div class="group cursor-pointer">
-          <h3 class="text-4xl font-bold text-[#d89d2e] group-hover:scale-110 transition">20K+</h3>
-          <p class="text-white/60 mt-1">Listeners</p>
+          <h3 class="text-4xl font-bold text-[#d89d2e] group-hover:scale-110 transition">
+            {{ 'podcast.podcastHero.stats.listeners' | translate }}
+          </h3>
+          <p class="text-white/60 mt-1">
+            {{ 'podcast.podcastHero.stats.listeners' | translate }}
+          </p>
         </div>
 
         <div class="group cursor-pointer">
-          <h3 class="text-4xl font-bold text-[#d89d2e] group-hover:scale-110 transition">Weekly</h3>
-          <p class="text-white/60 mt-1">New Episodes</p>
+          <h3 class="text-4xl font-bold text-[#d89d2e] group-hover:scale-110 transition">
+            {{ 'podcast.podcastHero.stats.frequency' | translate }}
+          </h3>
+          <p class="text-white/60 mt-1">
+            {{ 'podcast.podcastHero.stats.frequency' | translate }}
+          </p>
         </div>
       </div>
     </div>
@@ -85,7 +98,7 @@
 
   <!-- Floating Podcast Icon -->
   <div
-    class="hidden lg:flex absolute right-20 top-1/2 -translate-y-1/2 w-44 h-44 rounded-full border border-[#d89d2e]/20 bg-white/5 backdrop-blur-xl items-center justify-center"
+    class="hidden lg:flex absolute top-1/2 -translate-y-1/2 right-20 rtl:right-auto rtl:left-20 w-44 h-44 rounded-full border border-[#d89d2e]/20 bg-white/5 backdrop-blur-xl items-center justify-center"
   >
     <i class="fa-solid fa-headphones text-7xl text-[#d89d2e]"></i>
   </div>

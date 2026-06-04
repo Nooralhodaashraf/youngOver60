@@ -17,22 +17,24 @@
   <!-- Content -->
   <div class="max-w-[1400px] mx-auto px-6 relative z-10 w-full">
     <div class="max-w-3xl">
+      <!-- Badge -->
       <span
         class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[#d89d2e]/30 bg-white/5 backdrop-blur-xl text-[#d89d2e] text-sm tracking-[0.2em] uppercase transition duration-300 hover:scale-105 hover:border-[#d89d2e] hover:bg-[#d89d2e]/10 cursor-default"
       >
-        Latest Updates
+        {{ 'news.newsHero.badge' | translate }}
       </span>
 
+      <!-- Title -->
       <h1 class="mt-6 text-4xl md:text-6xl lg:text-7xl font-semibold text-white leading-tight">
-        Travel News &
+        {{ 'news.newsHero.title.line1' | translate }}
         <span class="italic text-[#d89d2e] transition duration-300 hover:text-[#f5c76a]">
-          Inspiring Stories
+          {{ 'news.newsHero.title.highlight' | translate }}
         </span>
       </h1>
 
+      <!-- Description -->
       <p class="mt-6 text-white/70 text-base md:text-lg leading-relaxed max-w-2xl">
-        Stay informed with the latest travel updates, accessibility insights, destination
-        highlights, and inspiring experiences from around the world.
+        {{ 'news.newsHero.description' | translate }}
       </p>
 
       <!-- Stats -->
@@ -41,28 +43,33 @@
           <h3
             class="text-3xl font-bold text-[#d89d2e] transition duration-300 group-hover:scale-110"
           >
-            500+
+            {{ 'news.newsHero.stats.stories.number' | translate }}
           </h3>
-
-          <p class="text-white/60 text-sm mt-1 group-hover:text-white">Published Stories</p>
+          <p class="text-white/60 text-sm mt-1 group-hover:text-white">
+            {{ 'news.newsHero.stats.stories.label' | translate }}
+          </p>
         </div>
+
         <div class="group transition duration-300 hover:-translate-y-2 cursor-pointer">
           <h3
             class="text-3xl font-bold text-[#d89d2e] transition duration-300 group-hover:scale-110"
           >
-            80+
+            {{ 'news.newsHero.stats.destinations.number' | translate }}
           </h3>
-
-          <p class="text-white/60 text-sm mt-1 group-hover:text-white">estinations Covered</p>
+          <p class="text-white/60 text-sm mt-1 group-hover:text-white">
+            {{ 'news.newsHero.stats.destinations.label' | translate }}
+          </p>
         </div>
+
         <div class="group transition duration-300 hover:-translate-y-2 cursor-pointer">
           <h3
             class="text-3xl font-bold text-[#d89d2e] transition duration-300 group-hover:scale-110"
           >
-            24/7
+            {{ 'news.newsHero.stats.updates.number' | translate }}
           </h3>
-
-          <p class="text-white/60 text-sm mt-1 group-hover:text-white">Latest Updates</p>
+          <p class="text-white/60 text-sm mt-1 group-hover:text-white">
+            {{ 'news.newsHero.stats.updates.label' | translate }}
+          </p>
         </div>
       </div>
     </div>

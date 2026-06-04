@@ -9,16 +9,19 @@
 
   <!-- Container -->
   <div class="relative max-w-6xl mx-auto px-6 flex flex-col items-center">
-    <!-- Section Title -->
-    <span class="text-[#d4af37] uppercase tracking-[0.3em] text-xs"> Podcast Episode </span>
+    <!-- Badge -->
+    <span class="text-[#d4af37] uppercase tracking-[0.3em] text-xs">
+      {{ 'podcast.podcastPlay.badge' | translate }}
+    </span>
 
+    <!-- Title -->
     <h2 class="text-white text-4xl md:text-5xl font-bold mt-4 text-center">
-      Stories That Move the World
+      {{ 'podcast.podcastPlay.title' | translate }}
     </h2>
 
+    <!-- Description -->
     <p class="text-white/70 mt-4 text-center max-w-2xl">
-      Listen to real travel experiences, accessibility insights, and inspiring journeys from around
-      the globe.
+      {{ 'podcast.podcastPlay.description' | translate }}
     </p>
 
     <!-- Frame -->
@@ -36,11 +39,12 @@
         </div>
       </div>
 
-      <!-- Floating Button -->
+      <!-- Button -->
       <button
         class="absolute -bottom-7 left-1/2 -translate-x-1/2 px-8 py-3 rounded-full bg-[#d4af37] text-[#050b18] font-semibold shadow-lg hover:scale-105 transition"
       >
-        <i class="fas fa-play"></i> Play Episode
+        <i class="fas fa-play"></i>
+        {{ 'podcast.podcastPlay.button' | translate }}
       </button>
     </div>
   </div>

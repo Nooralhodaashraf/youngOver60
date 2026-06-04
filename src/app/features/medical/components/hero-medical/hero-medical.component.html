@@ -8,25 +8,24 @@
   ></div>
 
   <div class="max-w-7xl mx-auto px-6 relative z-10 text-center">
-    <!-- Label -->
+    <!-- Badge -->
     <span class="uppercase tracking-[5px] text-sm font-medium text-[#d89d2e]">
-      Medical Tourism
+      {{ 'medical.medicalHero.badge' | translate }}
     </span>
 
     <!-- Title -->
     <h1
       class="mt-6 text-5xl md:text-6xl lg:text-7xl hover:text-shadow-[0_0_25px_rgba(216,157,46,0.25)] font-bold text-white leading-tight transition-all duration-500"
     >
-      Heal & Travel With
+      {{ 'medical.medicalHero.titlePrefix' | translate }}
       <span class="italic text-[#d89d2e] transition-all duration-500 hover:text-[#f0bc5a]">
-        Confidence
+        {{ 'medical.medicalHero.titleHighlight' | translate }}
       </span>
     </h1>
 
     <!-- Description -->
     <p class="mt-8 max-w-3xl mx-auto text-lg text-white/70 leading-relaxed">
-      Discover world-class medical destinations, trusted hospitals, and accessible care combined
-      with comfortable travel experiences designed for your well-being and peace of mind.
+      {{ 'medical.medicalHero.description' | translate }}
     </p>
 
     <!-- Stats / Info -->
@@ -34,19 +33,19 @@
       <div
         class="px-6 py-3 rounded-full border border-[#d89d2e]/30 bg-white/5 backdrop-blur-sm text-white/80 transition-all duration-300 hover:-translate-y-1 hover:border-[#d89d2e] hover:bg-[#d89d2e]/10 hover:text-white hover:shadow-[0_0_25px_rgba(216,157,46,0.25)] cursor-default"
       >
-        Trusted Hospitals Worldwide
+        {{ 'medical.medicalHero.features.hospitals' | translate }}
       </div>
 
       <div
         class="px-6 py-3 rounded-full border border-[#d89d2e]/30 bg-white/5 backdrop-blur-sm text-white/80 transition-all duration-300 hover:-translate-y-1 hover:border-[#d89d2e] hover:bg-[#d89d2e]/10 hover:text-white hover:shadow-[0_0_25px_rgba(216,157,46,0.25)] cursor-default"
       >
-        Specialized Medical Care
+        {{ 'medical.medicalHero.features.care' | translate }}
       </div>
 
       <div
         class="px-6 py-3 rounded-full border border-[#d89d2e]/30 bg-white/5 backdrop-blur-sm text-white/80 transition-all duration-300 hover:-translate-y-1 hover:border-[#d89d2e] hover:bg-[#d89d2e]/10 hover:text-white hover:shadow-[0_0_25px_rgba(216,157,46,0.25)] cursor-default"
       >
-        Accessible Travel Support
+        {{ 'medical.medicalHero.features.support' | translate }}
       </div>
     </div>
 
@@ -56,7 +55,7 @@
         routerLink="/medical/destinations"
         class="group inline-flex items-center gap-3 px-8 py-4 rounded-full bg-[#d89d2e] text-[#0B1F3B] font-semibold transition-all duration-300 hover:-translate-y-1 hover:bg-[#e6aa34] hover:shadow-[0_10px_30px_rgba(216,157,46,0.45)]"
       >
-        Explore Medical Destinations
+        {{ 'medical.medicalHero.button' | translate }}
         <span class="transition-transform duration-300 group-hover:translate-x-2"> → </span>
       </a>
     </div>
