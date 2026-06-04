@@ -52,5 +52,6 @@ export class NavbarComponent {
     this.myTranslateService.direction;
     this.direction = this.myTranslateService.direction;
     console.log(this.direction);
+    this.toggleLanguageMenu();
   }
 }
