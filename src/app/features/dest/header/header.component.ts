@@ -8,12 +8,13 @@ import { TranslatePipe } from '@ngx-translate/core';
   styleUrl: './header.component.css',
 })
 export class HeaderComponent {
-  @ViewChild('video') videoRef!: ElementRef<HTMLVideoElement>;
-  @ViewChild('heroVideo') video!: ElementRef<HTMLVideoElement>;
+  @ViewChild('heroVideo') heroVideo!: ElementRef<HTMLVideoElement>;
 
   ngAfterViewInit() {
-    this.videoRef.nativeElement.muted = true;
-    this.videoRef.nativeElement.volume = 0;
-    this.video.nativeElement.play().catch(() => {});
+    const video = this.heroVideo.nativeElement;
+
+    video.muted = true;
+    video.volume = 0;
+    video.play().catch(() => {});
   }
 }
