@@ -12,7 +12,7 @@ export class MyTranslateService {
       document.documentElement.setAttribute('dir', 'ltr');
       document.documentElement.setAttribute('lang', 'en');
     } else if (localStorage.getItem('lang') === 'ar') {
-      document.documentElement.setAttribute('dir', 'rlt');
+      document.documentElement.setAttribute('dir', 'rtl');
       document.documentElement.setAttribute('lang', 'ar');
     } else if (localStorage.getItem('lang') === 'du') {
       document.documentElement.setAttribute('dir', 'ltr');

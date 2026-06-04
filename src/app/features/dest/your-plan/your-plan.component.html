@@ -8,10 +8,12 @@
     <!-- Title -->
     <div class="text-center mb-10">
       <span class="uppercase tracking-[4px] text-white/80 text-sm font-medium">
-        Editor's Picks
+        {{ 'destenationPage.destinationPlan.header.badge' | translate }}
       </span>
 
-      <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4">Plan Your Trip</h2>
+      <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4">
+        {{ 'destenationPage.destinationPlan.header.title' | translate }}
+      </h2>
     </div>
 
     <div class="flex flex-wrap justify-center gap-4 md:gap-8 mb-8 md:mb-12 px-4">
@@ -20,7 +22,7 @@
         [class.border-white]="activeTab === 'accommodation'"
         class="text-white text-sm md:text-base border-b-2 border-transparent pb-2 transition-all duration-300"
       >
-        Accommodation
+        {{ 'destenationPage.destinationPlan.tabs.accommodation' | translate }}
       </button>
 
       <button
@@ -28,7 +30,7 @@
         [class.border-white]="activeTab === 'inspiration'"
         class="text-white text-sm md:text-base border-b-2 border-transparent pb-2 transition-all duration-300"
       >
-        Inspiration
+        {{ 'destenationPage.destinationPlan.tabs.inspiration' | translate }}
       </button>
 
       <button
@@ -36,7 +38,7 @@
         [class.border-white]="activeTab === 'tips'"
         class="text-white text-sm md:text-base border-b-2 border-transparent pb-2 transition-all duration-300"
       >
-        Tips & Tricks
+        {{ 'destenationPage.destinationPlan.tabs.tips' | translate }}
       </button>
 
       <button
@@ -44,81 +46,85 @@
         [class.border-white]="activeTab === 'transport'"
         class="text-white text-sm md:text-base border-b-2 border-transparent pb-2 transition-all duration-300"
       >
-        Transport
+        {{ 'destenationPage.destinationPlan.tabs.transport' | translate }}
       </button>
     </div>
+
     <!-- White Card -->
     <div class="bg-white rounded-3xl shadow-2xl p-6 md:p-10 lg:p-12 min-h-[350px] md:min-h-[500px]">
       @if (activeTab === 'accommodation') {
         <div class="bg-stone-100 rounded-3xl p-12 md:p-20 text-center">
-          <h3 class="text-4xl md:text-5xl font-bold mb-5">There's No Stories Yet</h3>
+          <h3 class="text-4xl md:text-5xl font-bold mb-5">
+            {{ 'destenationPage.destinationPlan.accommodation.title' | translate }}
+          </h3>
 
           <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            New stories will appear here soon. Until then, explore our collection of guides and
-            resources.
+            {{ 'destenationPage.destinationPlan.accommodation.description' | translate }}
           </p>
 
           <a
             href="#"
             class="inline-block px-8 py-4 bg-[#0B1F3B] text-white rounded-full font-medium hover:-translate-y-1 transition-transform"
           >
-            Explore All Guides
+            {{ 'destenationPage.destinationPlan.accommodation.button' | translate }}
           </a>
         </div>
+
       } @else if (activeTab === 'inspiration') {
         <div class="text-center mb-14">
           <span class="uppercase tracking-[4px] text-sm text-[#d89d2e] font-medium">
-            Inspiration Hub
+            {{ 'destenationPage.destinationPlan.inspiration.badge' | translate }}
           </span>
 
-          <h2 class="text-4xl md:text-5xl font-bold mt-4">Travel Stories That Inspire</h2>
+          <h2 class="text-4xl md:text-5xl font-bold mt-4">
+            {{ 'destenationPage.destinationPlan.inspiration.title' | translate }}
+          </h2>
 
           <p class="max-w-3xl mx-auto text-gray-600 mt-5 leading-relaxed">
-            Explore real journeys, practical travel advice, and inspiring experiences shared by
-            travellers from around the world.
+            {{ 'destenationPage.destinationPlan.inspiration.description' | translate }}
           </p>
+
           <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-            <!-- كرري الكارت هنا -->
             <div class="group relative overflow-hidden rounded-[32px] aspect-[4/5] cursor-pointer">
-              <!-- Image -->
               <img
                 src="/assets/images/image copy.png"
-                alt=""
                 class="w-full h-full object-cover transition duration-700 group-hover:scale-110"
               />
 
-              <!-- Dark Overlay -->
               <div
                 class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-70"
               ></div>
 
-              <!-- Content -->
               <div
                 class="absolute inset-x-0 bottom-0 p-8 translate-y-24 group-hover:translate-y-0 transition-all duration-500"
               >
                 <span
                   class="inline-block mb-4 px-3 py-1 rounded-full bg-[#d89d2e] text-white text-xs tracking-wider uppercase"
                 >
-                  Travel Story
+                  {{ 'destenationPage.destinationPlan.inspiration.cards.0.tag' | translate }}
                 </span>
 
-                <h3 class="text-2xl font-bold text-white mb-3">Solo Travel Through Cairo</h3>
+                <h3 class="text-2xl font-bold text-white mb-3">
+                  {{ 'destenationPage.destinationPlan.inspiration.cards.0.title' | translate }}
+                </h3>
 
                 <p class="text-white/80 text-sm leading-relaxed mb-5 line-clamp-3">
-                  Discover historic landmarks, hidden gems, and practical accessibility tips through
-                  a firsthand travel experience in Cairo.
+                  {{
+                    'destenationPage.destinationPlan.inspiration.cards.0.description' | translate
+                  }}
                 </p>
 
                 <button
                   class="inline-flex items-center gap-3 bg-white text-black px-5 py-3 rounded-full font-medium transition hover:bg-[#d89d2e] hover:text-white"
                 >
-                  Read Story
+                  {{ 'destenationPage.destinationPlan.inspiration.cards.0.button' | translate }}
                   <span>→</span>
                 </button>
               </div>
             </div>
           </div>
         </div>
+
       } @else if (activeTab === 'tips') {
         <div class="col-span-full flex flex-col items-center justify-center py-24 text-center">
           <div
@@ -127,20 +133,33 @@
             <i class="fa-solid -rotate-z-12 text-[#0B1F3B] fa-plane"></i>
           </div>
 
-          <p class="text-gray-500 italic text-lg">No stories found in this category yet.</p>
+          <p class="text-gray-500 italic text-lg">
+            {{ 'destenationPage.destinationPlan.tips.emptyMessage' | translate }}
+          </p>
         </div>
+
       } @else if (activeTab === 'transport') {
         <div>
-          <h3 class="text-2xl md:text-3xl font-bold mb-4">Transport</h3>
+          <h3 class="text-2xl md:text-3xl font-bold mb-4">
+            {{ 'destenationPage.destinationPlan.transport.title' | translate }}
+          </h3>
 
-          <p class="text-gray-600 mb-6">Accessible transportation options.</p>
+          <p class="text-gray-600 mb-6">
+            {{ 'destenationPage.destinationPlan.transport.description' | translate }}
+          </p>
 
           <div class="grid md:grid-cols-3 gap-4">
-            <div class="bg-stone-100 rounded-xl p-6">Air Travel</div>
+            <div class="bg-stone-100 rounded-xl p-6">
+              {{ 'destenationPage.destinationPlan.transport.items.0' | translate }}
+            </div>
 
-            <div class="bg-stone-100 rounded-xl p-6">Rail Travel</div>
+            <div class="bg-stone-100 rounded-xl p-6">
+              {{ 'destenationPage.destinationPlan.transport.items.1' | translate }}
+            </div>
 
-            <div class="bg-stone-100 rounded-xl p-6">Local Transport</div>
+            <div class="bg-stone-100 rounded-xl p-6">
+              {{ 'destenationPage.destinationPlan.transport.items.2' | translate }}
+            </div>
           </div>
         </div>
       }

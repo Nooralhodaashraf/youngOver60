@@ -1,10 +1,15 @@
 <section class="bg-white py-16">
   <!-- HEADER -->
   <div class="max-w-[1200px] mx-auto px-6 mb-12">
-    <span class="text-[#d89d2e] tracking-widest text-sm uppercase"> Latest Insights </span>
+    <span class="text-[#d89d2e] tracking-widest text-sm uppercase">
+      {{ 'destenationPage.destinationNews.header.badge' | translate }}
+    </span>
 
     <h2 class="text-3xl md:text-4xl font-semibold text-[#0B1F3B] mt-2">
-      Featured News & <span class="text-[#d89d2e] italic">Stories</span>
+      {{ 'destenationPage.destinationNews.header.title.line1' | translate }}
+      <span class="text-[#d89d2e] italic">
+        {{ 'destenationPage.destinationNews.header.title.highlight' | translate }}
+      </span>
     </h2>
   </div>
 
@@ -43,21 +48,21 @@
           <!-- CONTENT -->
           <div class="md:w-1/2 mt-6 md:mt-0">
             <div class="text-xs text-gray-500 flex gap-2">
-              <span>Site Admin</span>
+              <span>{{ 'destenationPage.destinationNews.slides.0.author' | translate }}</span>
               <span>•</span>
-              <span>Jan 15, 2026</span>
+              <span>{{ 'destenationPage.destinationNews.slides.0.date' | translate }}</span>
             </div>
 
             <h3 class="text-2xl font-semibold text-[#0B1F3B] mt-3">
-              On Turtle Time at Mon Repos Turtle Centre
+              {{ 'destenationPage.destinationNews.slides.0.title' | translate }}
             </h3>
 
             <p class="text-gray-600 mt-4 leading-relaxed">
-              A magical encounter where accessible nature meets wonder.
+              {{ 'destenationPage.destinationNews.slides.0.description' | translate }}
             </p>
 
             <a class="inline-block mt-6 text-[#d89d2e] font-medium hover:underline">
-              Read Full Story →
+              {{ 'destenationPage.destinationNews.slides.0.button' | translate }}
             </a>
           </div>
         </div>
@@ -81,24 +86,27 @@
 
           <div class="md:w-1/2 mt-6 md:mt-0">
             <div class="text-xs text-gray-500 flex gap-2">
-              <span>Site Admin</span>
+              <span>{{ 'destenationPage.destinationNews.slides.1.author' | translate }}</span>
               <span>•</span>
-              <span>May 20, 2026</span>
+              <span>{{ 'destenationPage.destinationNews.slides.1.date' | translate }}</span>
             </div>
 
             <h3 class="text-2xl font-semibold text-[#0B1F3B] mt-3">
-              A European Summer of Music and Discovery
+              {{ 'destenationPage.destinationNews.slides.1.title' | translate }}
             </h3>
 
-            <p class="text-gray-600 mt-4">Music knows no limits — accessibility meets culture.</p>
+            <p class="text-gray-600 mt-4">
+              {{ 'destenationPage.destinationNews.slides.1.description' | translate }}
+            </p>
 
             <a class="inline-block mt-6 text-[#d89d2e] font-medium hover:underline">
-              Read Full Story →
+              {{ 'destenationPage.destinationNews.slides.1.button' | translate }}
             </a>
           </div>
         </div>
       </swiper-slide>
 
+      <!-- CARD 3 -->
       <swiper-slide>
         <div class="md:flex items-center gap-10 group min-h-[320px]">
           <div class="relative md:w-1/2">
@@ -116,22 +124,21 @@
 
           <div class="md:w-1/2 mt-6 md:mt-0">
             <div class="text-xs text-gray-500 flex gap-2">
-              <span>Site Admin</span>
+              <span>{{ 'destenationPage.destinationNews.slides.2.author' | translate }}</span>
               <span>•</span>
-              <span>May 20, 2026</span>
+              <span>{{ 'destenationPage.destinationNews.slides.2.date' | translate }}</span>
             </div>
 
             <h3 class="text-2xl font-semibold text-[#0B1F3B] mt-3">
-              Konichiwa, Japan: Serenity in Vibrancy
+              {{ 'destenationPage.destinationNews.slides.2.title' | translate }}
             </h3>
 
             <p class="text-gray-600 mt-4">
-              Discovering pockets of serenity and world-class accessibility in Japan's vibrant
-              cities, from Kyoto's temples to Tokyo's neon streets.
+              {{ 'destenationPage.destinationNews.slides.2.description' | translate }}
             </p>
 
             <a class="inline-block mt-6 text-[#d89d2e] font-medium hover:underline">
-              Read Full Story →
+              {{ 'destenationPage.destinationNews.slides.2.button' | translate }}
             </a>
           </div>
         </div>

@@ -1,79 +1,117 @@
 <section class="relative py-20 overflow-hidden bg-[#faf8f5]">
   <div class="max-w-7xl mx-auto px-6 mb-12">
-    <span class="text-xs uppercase tracking-[4px] text-[#7c8b6b]"> Where to next? </span>
+    <span class="text-xs uppercase tracking-[4px] text-[#7c8b6b]">
+      {{ 'destenationPage.destinationsBrowse.header.badge' | translate }}
+    </span>
 
     <h2 class="text-4xl md:text-5xl font-bold mt-3">
-      Browse by
-      <span class="italic font-light"> Destinations </span>
+      {{ 'destenationPage.destinationsBrowse.header.title.line1' | translate }}
+      <span class="italic font-light">
+        {{ 'destenationPage.destinationsBrowse.header.title.highlight' | translate }}
+      </span>
     </h2>
   </div>
 
   <div class="slider-wrapper" dir="ltr">
     <div class="slider-track">
-      <!-- ORIGINAL -->
-
+      <!-- CARD 1 -->
       <a class="destination-card">
         <img src="/assets/images/aust.png" />
         <div class="overlay">
-          <span>Region</span>
-          <h3>Australia</h3>
+          <span>
+            {{ 'destenationPage.destinationsBrowse.cards.card1.region' | translate }}
+          </span>
+          <h3>
+            {{ 'destenationPage.destinationsBrowse.cards.card1.title' | translate }}
+          </h3>
+        </div>
+      </a>
+
+      <!-- CARD 2 -->
+      <a class="destination-card">
+        <img src="/assets/images/asia.png" />
+        <div class="overlay">
+          <span>
+            {{ 'destenationPage.destinationsBrowse.cards.card2.region' | translate }}
+          </span>
+          <h3>
+            {{ 'destenationPage.destinationsBrowse.cards.card2.title' | translate }}
+          </h3>
+        </div>
+      </a>
+
+      <!-- CARD 3 -->
+      <a class="destination-card">
+        <img src="/assets/images/europ.png" />
+        <div class="overlay">
+          <span>
+            {{ 'destenationPage.destinationsBrowse.cards.card3.region' | translate }}
+          </span>
+          <h3>
+            {{ 'destenationPage.destinationsBrowse.cards.card3.title' | translate }}
+          </h3>
+        </div>
+      </a>
+
+      <!-- CARD 4 -->
+      <a class="destination-card">
+        <img src="/assets/images/ameraca.png" />
+        <div class="overlay">
+          <span>
+            {{ 'destenationPage.destinationsBrowse.cards.card4.region' | translate }}
+          </span>
+          <h3>
+            {{ 'destenationPage.destinationsBrowse.cards.card4.title' | translate }}
+          </h3>
+        </div>
+      </a>
+
+      <!-- DUPLICATE CARDS (unchanged images, optional translation reuse) -->
+      <a class="destination-card">
+        <img src="/assets/images/aust.png" />
+        <div class="overlay">
+          <span>
+            {{ 'destenationPage.destinationsBrowse.cards.card1.region' | translate }}
+          </span>
+          <h3>
+            {{ 'destenationPage.destinationsBrowse.cards.card1.title' | translate }}
+          </h3>
         </div>
       </a>
 
       <a class="destination-card">
         <img src="/assets/images/asia.png" />
         <div class="overlay">
-          <span>Region</span>
-          <h3>Asia Pacific</h3>
+          <span>
+            {{ 'destenationPage.destinationsBrowse.cards.card2.region' | translate }}
+          </span>
+          <h3>
+            {{ 'destenationPage.destinationsBrowse.cards.card2.title' | translate }}
+          </h3>
         </div>
       </a>
 
       <a class="destination-card">
         <img src="/assets/images/europ.png" />
         <div class="overlay">
-          <span>Region</span>
-          <h3>Europe</h3>
+          <span>
+            {{ 'destenationPage.destinationsBrowse.cards.card3.region' | translate }}
+          </span>
+          <h3>
+            {{ 'destenationPage.destinationsBrowse.cards.card3.title' | translate }}
+          </h3>
         </div>
       </a>
 
       <a class="destination-card">
         <img src="/assets/images/ameraca.png" />
         <div class="overlay">
-          <span>Region</span>
-          <h3>Americas</h3>
-        </div>
-      </a>
-
-      <!-- DUPLICATE -->
-
-      <a class="destination-card">
-        <img src="/assets/images/aust.png" />
-        <div class="overlay">
-          <span>Region</span>
-          <h3>Australia</h3>
-        </div>
-      </a>
-      <a class="destination-card">
-        <img src="/assets/images/asia.png" />
-        <div class="overlay">
-          <span>Region</span>
-          <h3>Asia Pacific</h3>
-        </div>
-      </a>
-
-      <a class="destination-card">
-        <img src="/assets/images/europ.png" />
-        <div class="overlay">
-          <span>Region</span>
-          <h3>Europe</h3>
-        </div>
-      </a>
-
-      <a class="destination-card">
-        <img src="/assets/images/ameraca.png" />
-        <div class="overlay">
-          <span>Region</span>
-          <h3>Americas</h3>
+          <span>
+            {{ 'destenationPage.destinationsBrowse.cards.card4.region' | translate }}
+          </span>
+          <h3>
+            {{ 'destenationPage.destinationsBrowse.cards.card4.title' | translate }}
+          </h3>
         </div>
       </a>
     </div>

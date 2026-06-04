@@ -10,22 +10,22 @@
     <!-- Header -->
     <div class="text-center max-w-4xl mx-auto py-3 md:mb-20">
       <span class="uppercase tracking-[4px] text-sm font-medium text-[#d89d2e]">
-        What We Offer
+        {{ 'aboutPage.offerSec.header.label' | translate }}
       </span>
 
       <h2 class="mt-5 text-4xl md:text-5xl lg:text-6xl w-full font-bold text-white">
-        Everything You Need To
-        <span class="italic text-[#d89d2e]"> Travel Confidently </span>
+        {{ 'aboutPage.offerSec.header.titleLine1' | translate }}
+        <span class="italic text-[#d89d2e]">
+          {{ 'aboutPage.offerSec.header.titleHighlight' | translate }}
+        </span>
       </h2>
 
       <p class="mt-6 text-lg hidden md:block text-white/70 leading-relaxed">
-        Carefully curated resources, inspiring stories, and practical guidance designed to help
-        travellers over 60 and individuals with special needs explore the world comfortably and
-        confidently.
+        {{ 'aboutPage.offerSec.header.descriptionDesktop' | translate }}
       </p>
 
       <p class="mt-6 text-lg md:hidden text-white/70 leading-relaxed">
-        We provide resources, stories, and guidance for comfortable and confident travel.
+        {{ 'aboutPage.offerSec.header.descriptionMobile' | translate }}
       </p>
     </div>
 
@@ -42,12 +42,11 @@
         </div>
 
         <h3 class="text-2xl font-bold text-[#0B1F3B] mb-4 min-h-[64px]">
-          Specialized News & Insights
+          {{ 'aboutPage.offerSec.cards.card1.title' | translate }}
         </h3>
 
         <p class="text-gray-600 leading-relaxed flex-1">
-          Stay informed with the latest developments in senior and accessible travel, from airline
-          policies to hotels offering inclusive experiences.
+          {{ 'aboutPage.offerSec.cards.card1.text' | translate }}
         </p>
       </div>
 
@@ -61,11 +60,12 @@
           <i class="fa-regular fa-map"></i>
         </div>
 
-        <h3 class="text-2xl font-bold text-[#0B1F3B] mb-4 min-h-[64px]">In-Depth Travel Reports</h3>
+        <h3 class="text-2xl font-bold text-[#0B1F3B] mb-4 min-h-[64px]">
+          {{ 'aboutPage.offerSec.cards.card2.title' | translate }}
+        </h3>
 
         <p class="text-gray-600 leading-relaxed flex-1">
-          Explore destinations evaluated for accessibility, mobility, healthcare availability,
-          comfort, and overall travel convenience.
+          {{ 'aboutPage.offerSec.cards.card2.text' | translate }}
         </p>
       </div>
 
@@ -79,11 +79,12 @@
           <i class="fa-regular fa-lightbulb"></i>
         </div>
 
-        <h3 class="text-2xl font-bold text-[#0B1F3B] mb-4 min-h-[64px]">Stories & Inspiration</h3>
+        <h3 class="text-2xl font-bold text-[#0B1F3B] mb-4 min-h-[64px]">
+          {{ 'aboutPage.offerSec.cards.card3.title' | translate }}
+        </h3>
 
         <p class="text-gray-600 leading-relaxed flex-1">
-          Read inspiring journeys from travellers over 60 and individuals with special needs who
-          continue exploring the world without limits.
+          {{ 'aboutPage.offerSec.cards.card3.text' | translate }}
         </p>
       </div>
 
@@ -97,11 +98,12 @@
           <i class="fa-solid fa-book-open"></i>
         </div>
 
-        <h3 class="text-2xl font-bold text-[#0B1F3B] mb-4 min-h-[64px]">Practical Guides & Tips</h3>
+        <h3 class="text-2xl font-bold text-[#0B1F3B] mb-4 min-h-[64px]">
+          {{ 'aboutPage.offerSec.cards.card4.title' | translate }}
+        </h3>
 
         <p class="text-gray-600 leading-relaxed flex-1">
-          From travel planning and insurance advice to transportation and accommodation
-          recommendations tailored to your needs.
+          {{ 'aboutPage.offerSec.cards.card4.text' | translate }}
         </p>
       </div>
     </div>
@@ -116,8 +118,10 @@
           >
             <i class="fa-solid fa-newspaper"></i>
           </div>
-          <h3 class="text-xl font-bold text-[#0B1F3B] mb-3">Specialized News</h3>
-          <p class="text-gray-600">Updates on accessible travel and policies.</p>
+          <h3 class="text-xl font-bold text-[#0B1F3B] mb-3">
+            {{ 'aboutPage.offerSec.cards.card1.title' | translate }}
+          </h3>
+          <p class="text-gray-600">{{ 'aboutPage.offerSec.cards.card1.text' | translate }}</p>
         </div>
 
         <!-- Card 2 -->
@@ -129,8 +133,10 @@
           >
             <i class="fa-regular fa-map"></i>
           </div>
-          <h3 class="text-xl font-bold text-[#0B1F3B] mb-3">Travel Reports</h3>
-          <p class="text-gray-600">Accessibility-focused destination reviews.</p>
+          <h3 class="text-xl font-bold text-[#0B1F3B] mb-3">
+            {{ 'aboutPage.offerSec.cards.card2.title' | translate }}
+          </h3>
+          <p class="text-gray-600">{{ 'aboutPage.offerSec.cards.card2.text' | translate }}</p>
         </div>
 
         <!-- Card 3 -->
@@ -142,8 +148,10 @@
           >
             <i class="fa-regular fa-lightbulb"></i>
           </div>
-          <h3 class="text-xl font-bold text-[#0B1F3B] mb-3">Inspiration</h3>
-          <p class="text-gray-600">Stories from real travellers.</p>
+          <h3 class="text-xl font-bold text-[#0B1F3B] mb-3">
+            {{ 'aboutPage.offerSec.cards.card3.title' | translate }}
+          </h3>
+          <p class="text-gray-600">{{ 'aboutPage.offerSec.cards.card3.text' | translate }}</p>
         </div>
 
         <!-- Card 4 -->
@@ -155,8 +163,10 @@
           >
             <i class="fa-solid fa-book-open"></i>
           </div>
-          <h3 class="text-xl font-bold text-[#0B1F3B] mb-3">Guides</h3>
-          <p class="text-gray-600">Practical travel tips.</p>
+          <h3 class="text-xl font-bold text-[#0B1F3B] mb-3">
+            {{ 'aboutPage.offerSec.cards.card4.title' | translate }}
+          </h3>
+          <p class="text-gray-600">{{ 'aboutPage.offerSec.cards.card4.text' | translate }}</p>
         </div>
 
         <!-- 🔁 duplicate for smooth loop -->
@@ -166,8 +176,10 @@
           >
             <i class="fa-solid fa-newspaper"></i>
           </div>
-          <h3 class="text-xl font-bold text-[#0B1F3B] mb-3">Specialized News</h3>
-          <p class="text-gray-600">Updates on accessible travel and policies.</p>
+          <h3 class="text-xl font-bold text-[#0B1F3B] mb-3">
+            {{ 'aboutPage.offerSec.cards.card1.title' | translate }}
+          </h3>
+          <p class="text-gray-600">{{ 'aboutPage.offerSec.cards.card1.text' | translate }}</p>
         </div>
       </div>
     </div>

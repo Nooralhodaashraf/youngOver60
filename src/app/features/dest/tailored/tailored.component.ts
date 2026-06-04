@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-tailored',
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: './tailored.component.html',
   styleUrl: './tailored.component.css',
 })

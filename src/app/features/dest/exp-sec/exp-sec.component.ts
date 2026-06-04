@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-exp-sec',
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: './exp-sec.component.html',
   styleUrl: './exp-sec.component.css',
 })

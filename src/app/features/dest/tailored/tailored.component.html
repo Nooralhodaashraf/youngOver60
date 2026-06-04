@@ -1,38 +1,43 @@
 <section class="bg-[#FAF7F2] py-16">
   <div class="max-w-[1200px] mx-auto px-6 mb-10 text-center md:text-left">
-    <span class="text-[#d89d2e] tracking-[0.3em] text-xs uppercase"> Quick Access </span>
+    <span class="text-[#d89d2e] tracking-[0.3em] text-xs uppercase">
+      {{ 'destenationPage.tailoredForSeniors.header.badge' | translate }}
+    </span>
 
     <h2 class="text-3xl md:text-4xl font-semibold text-[#0B1F3B] mt-3">
-      Tailored for <span class="italic text-[#d89d2e]">Seniors</span>
+      {{ 'destenationPage.tailoredForSeniors.header.title.line1' | translate }}
+      <span class="italic text-[#d89d2e]">
+        {{ 'destenationPage.tailoredForSeniors.header.title.highlight' | translate }}
+      </span>
     </h2>
   </div>
 
   <div class="max-w-[1200px] mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <!-- CARD -->
+    <!-- CARD 1 -->
     <a href="#" class="relative group overflow-hidden rounded-2xl shadow-lg">
-      <!-- IMAGE -->
       <img
         src="/assets/images/image.png"
         class="w-full h-[280px] object-cover transition duration-500 group-hover:scale-110"
       />
 
-      <!-- OVERLAY -->
       <div
         class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition duration-500 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100"
       >
         <div class="w-10 h-[2px] bg-white mb-3"></div>
 
-        <h4 class="text-lg font-semibold mb-2">Physical / Mobility</h4>
+        <h4 class="text-lg font-semibold mb-2">
+          {{ 'destenationPage.tailoredForSeniors.cards.0.title' | translate }}
+        </h4>
 
         <span
           class="px-4 py-1 border border-white rounded-full text-sm hover:bg-white hover:text-black transition"
         >
-          View Stories
+          {{ 'destenationPage.tailoredForSeniors.button' | translate }}
         </span>
       </div>
     </a>
 
-    <!-- CARD -->
+    <!-- CARD 2 -->
     <a href="#" class="relative group overflow-hidden rounded-2xl shadow-lg">
       <img
         src="/assets/images/image copy.png"
@@ -43,16 +48,20 @@
         class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition duration-500 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100"
       >
         <div class="w-10 h-[2px] bg-white mb-3"></div>
-        <h4 class="text-lg font-semibold mb-2">Cruises</h4>
+
+        <h4 class="text-lg font-semibold mb-2">
+          {{ 'destenationPage.tailoredForSeniors.cards.1.title' | translate }}
+        </h4>
+
         <span
           class="px-4 py-1 border border-white rounded-full text-sm hover:bg-white hover:text-black transition"
         >
-          View Stories
+          {{ 'destenationPage.tailoredForSeniors.button' | translate }}
         </span>
       </div>
     </a>
 
-    <!-- CARD -->
+    <!-- CARD 3 -->
     <a href="#" class="relative group overflow-hidden rounded-2xl shadow-lg">
       <img
         src="/assets/images/image copy2.png"
@@ -63,39 +72,44 @@
         class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition duration-500 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100"
       >
         <div class="w-10 h-[2px] bg-white mb-3"></div>
-        <h4 class="text-lg font-semibold mb-2">Accommodation</h4>
+
+        <h4 class="text-lg font-semibold mb-2">
+          {{ 'destenationPage.tailoredForSeniors.cards.2.title' | translate }}
+        </h4>
+
         <span
           class="px-4 py-1 border border-white rounded-full text-sm hover:bg-white hover:text-black transition"
         >
-          View Stories
+          {{ 'destenationPage.tailoredForSeniors.button' | translate }}
         </span>
       </div>
     </a>
 
+    <!-- CARD 4 -->
     <a href="#" class="relative group overflow-hidden rounded-2xl shadow-lg">
-      <!-- IMAGE -->
       <img
         src="/assets/images/image copy3.png"
         class="w-full h-[280px] object-cover transition duration-500 group-hover:scale-110"
       />
 
-      <!-- OVERLAY -->
       <div
         class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition duration-500 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100"
       >
         <div class="w-10 h-[2px] bg-white mb-3"></div>
 
-        <h4 class="text-lg font-semibold mb-2">Gear & Support</h4>
+        <h4 class="text-lg font-semibold mb-2">
+          {{ 'destenationPage.tailoredForSeniors.cards.3.title' | translate }}
+        </h4>
 
         <span
           class="px-4 py-1 border border-white rounded-full text-sm hover:bg-white hover:text-black transition"
         >
-          View Stories
+          {{ 'destenationPage.tailoredForSeniors.button' | translate }}
         </span>
       </div>
     </a>
 
-    <!-- CARD -->
+    <!-- CARD 5 -->
     <a href="#" class="relative group overflow-hidden rounded-2xl shadow-lg">
       <img
         src="/assets/images/image copy.png"
@@ -106,16 +120,20 @@
         class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition duration-500 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100"
       >
         <div class="w-10 h-[2px] bg-white mb-3"></div>
-        <h4 class="text-lg font-semibold mb-2">Sensory Needs</h4>
+
+        <h4 class="text-lg font-semibold mb-2">
+          {{ 'destenationPage.tailoredForSeniors.cards.4.title' | translate }}
+        </h4>
+
         <span
           class="px-4 py-1 border border-white rounded-full text-sm hover:bg-white hover:text-black transition"
         >
-          View Stories
+          {{ 'destenationPage.tailoredForSeniors.button' | translate }}
         </span>
       </div>
     </a>
 
-    <!-- CARD -->
+    <!-- CARD 6 -->
     <a href="#" class="relative group overflow-hidden rounded-2xl shadow-lg">
       <img
         src="/assets/images/image copy3.png"
@@ -126,11 +144,15 @@
         class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition duration-500 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100"
       >
         <div class="w-10 h-[2px] bg-white mb-3"></div>
-        <h4 class="text-lg font-semibold mb-2">Tips & Tricks</h4>
+
+        <h4 class="text-lg font-semibold mb-2">
+          {{ 'destenationPage.tailoredForSeniors.cards.5.title' | translate }}
+        </h4>
+
         <span
           class="px-4 py-1 border border-white rounded-full text-sm hover:bg-white hover:text-black transition"
         >
-          View Stories
+          {{ 'destenationPage.tailoredForSeniors.button' | translate }}
         </span>
       </div>
     </a>

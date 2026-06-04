@@ -132,28 +132,28 @@
         "highlight": "Destinations"
       }
     },
-    "cards": [
-      {
+    "cards": {
+     "card1": {
         "region": "Region",
         "title": "Australia",
         "image": "/assets/images/aust.png"
       },
-      {
+     "card2": {
         "region": "Region",
         "title": "Asia Pacific",
         "image": "/assets/images/asia.png"
       },
-      {
+    "card3":  {
         "region": "Region",
         "title": "Europe",
         "image": "/assets/images/europ.png"
       },
-      {
+    "card4":  {
         "region": "Region",
         "title": "Americas",
         "image": "/assets/images/ameraca.png"
       }
-    ]
+    
   }, "destinationsExperiences": {
     "header": {
       "badge": "Real Experiences",
@@ -310,6 +310,170 @@
       ]
     }
   }
+},"destinationsExperiences": {
+  "header": {
+    "badge": "Real Experiences",
+    "title": "Traveler Experiences"
+  },
+  "tabs": {
+    "animals": "Animal Encounters",
+    "cruises": "Cruises",
+    "family": "Family Travel",
+    "food": "Food & Drink"
+  },
+  "animals": {
+    "title": "Wild Moments & Real Encounters",
+    "description": "Stories of safaris, marine life, wildlife parks, and unforgettable close encounters.",
+    "card": {
+      "tag": "Wild Story",
+      "title": "Safari in the Serengeti",
+      "description": "A real journey through African wilderness and unforgettable wildlife encounters.",
+      "button": "Read Experience →"
+    }
+  },
+  "cruises": {
+    "placeholder": "Cruise experiences content goes here."
+  },
+  "family": {
+    "placeholder": "Family travel experiences content goes here."
+  },
+  "food": {
+    "placeholder": "Food & drink content goes here."
+  }
+},
+
+"newsletter": {
+  "header": {
+    "badge": "Newsletter",
+    "title": {
+      "line1": "Stay Connected to",
+      "highlight": "Wonder"
+    },
+    "description": "Subscribe to receive seasonal travel itineraries, accessibility updates, travel inspiration, and exclusive destination guides designed for all travelers."
+  },
+  "form": {
+    "placeholder": "Enter your email address",
+    "checkbox": "I agree to receive newsletters, travel updates, accessibility resources, and promotional offers.",
+    "button": "Subscribe Now"
+  }
+},
+
+"destinationNews": {
+  "header": {
+    "badge": "Latest Insights",
+    "title": {
+      "line1": "Featured News &",
+      "highlight": "Stories"
+    }
+  },
+  "slides": [
+    {
+      "author": "Site Admin",
+      "date": "15 Jan 2026",
+      "title": "Turtle Moments at Mon Repos Turtle Centre",
+      "description": "A magical experience where nature meets accessibility.",
+      "image": "/assets/images/image copy.png",
+      "button": "Read Full Story →"
+    },
+    {
+      "author": "Site Admin",
+      "date": "20 May 2026",
+      "title": "A European Summer of Music and Discovery",
+      "description": "Music knows no limits — where art meets accessibility.",
+      "image": "/assets/images/europ.png",
+      "button": "Read Full Story →"
+    },
+    {
+      "author": "Site Admin",
+      "date": "20 May 2026",
+      "title": "Japan: Serenity in Vibrancy",
+      "description": "Discover calm and accessibility across Japan from Kyoto to Tokyo.",
+      "image": "/assets/images/asia.png",
+      "button": "Read Full Story →"
+    }
+  ]
+},
+
+"tailoredForSeniors": {
+  "header": {
+    "badge": "Quick Access",
+    "title": {
+      "line1": "Designed for",
+      "highlight": "Seniors"
+    }
+  },
+  "button": "View Stories",
+  "cards": [
+    {
+      "title": "Mobility",
+      "image": "/assets/images/image.png"
+    },
+    {
+      "title": "Cruises",
+      "image": "/assets/images/image copy.png"
+    },
+    {
+      "title": "Accommodation",
+      "image": "/assets/images/image copy2.png"
+    },
+    {
+      "title": "Gear & Support",
+      "image": "/assets/images/image copy3.png"
+    },
+    {
+      "title": "Sensory Needs",
+      "image": "/assets/images/image copy.png"
+    },
+    {
+      "title": "Tips & Guides",
+      "image": "/assets/images/image copy3.png"
+    }
+  ]
+},
+
+"destinationPlan": {
+  "header": {
+    "badge": "Editor's Picks",
+    "title": "Plan Your Trip"
+  },
+  "tabs": {
+    "accommodation": "Accommodation",
+    "inspiration": "Inspiration",
+    "tips": "Tips & Guides",
+    "transport": "Transport"
+  },
+  "accommodation": {
+    "title": "No Stories Yet",
+    "description": "New stories will appear here soon. Meanwhile, explore our guides and resources.",
+    "button": "Explore All Guides"
+  },
+  "inspiration": {
+    "badge": "Inspiration Hub",
+    "title": "Inspiring Travel Stories",
+    "description": "Discover real journeys, practical travel tips, and inspiring experiences shared by travelers worldwide.",
+    "cards": [
+      {
+        "tag": "Travel Story",
+        "title": "Solo Travel in Cairo",
+        "description": "Discover historic landmarks, hidden gems, and accessibility tips through a real travel experience in Cairo.",
+        "button": "Read Story",
+        "image": "/assets/images/image copy.png"
+      }
+    ]
+  },
+  "tips": {
+    "emptyMessage": "No stories available in this section yet."
+  },
+  "transport": {
+    "title": "Transport",
+    "description": "Accessible transportation options.",
+    "items": [
+      "Air Travel",
+      "Rail Travel",
+      "Local Transport"
+    ]
+  }
+}
 },  "experience": {
     "hero": {
       "badge": "Experience Collection",
@@ -645,5 +809,4 @@
       "accessibility": "Dedicated to accessible and inclusive travel."
     }
   }
-  }
-}
+  }}

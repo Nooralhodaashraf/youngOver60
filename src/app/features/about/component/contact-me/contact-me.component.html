@@ -82,19 +82,19 @@
         <form class="space-y-5">
           <input
             type="text"
-            placeholder="Your Name"
+            [placeholder]="'aboutPage.contactMe.form.name' | translate"
             class="w-full px-5 py-4 rounded-xl border border-gray-200 focus:outline-none focus:border-[#d89d2e] transition"
           />
 
           <input
             type="email"
-            placeholder="Your Email"
+            [placeholder]="'aboutPage.contactMe.form.email' | translate"
             class="w-full px-5 py-4 rounded-xl border border-gray-200 focus:outline-none focus:border-[#d89d2e] transition"
           />
 
           <textarea
             rows="5"
-            placeholder="Your Message"
+            [placeholder]="'aboutPage.contactMe.form.message' | translate"
             class="w-full px-5 py-4 rounded-xl border border-gray-200 focus:outline-none focus:border-[#d89d2e] transition"
           ></textarea>
 

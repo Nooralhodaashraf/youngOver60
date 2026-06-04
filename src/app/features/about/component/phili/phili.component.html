@@ -13,12 +13,14 @@
         class="bg-black/5 p-6 rounded-2xl border border-transparent hover:border-[#d89d2e]/20 transition-all duration-500 hover:-translate-y-1 hover:shadow-lg"
       >
         <span class="uppercase tracking-[4px] text-sm font-medium text-[#d89d2e]">
-          Our Philosophy
+          {{ 'aboutPage.philosophySec.label' | translate }}
         </span>
 
         <h2 class="mt-5 text-4xl md:text-5xl lg:text-6xl font-bold text-[#0B1F3B] leading-tight">
-          Life Begins
-          <span class="italic text-[#d89d2e]">After 60</span>
+          {{ 'aboutPage.philosophySec.titleLine1' | translate }}
+          <span class="italic text-[#d89d2e]">
+            {{ 'aboutPage.philosophySec.titleHighlight' | translate }}
+          </span>
         </h2>
 
         <div class="w-24 h-[3px] bg-[#d89d2e] mt-8"></div>
@@ -26,7 +28,7 @@
         <blockquote
           class="mt-8 text-2xl md:text-3xl font-light italic text-[#0B1F3B] leading-relaxed transition-all duration-500 group-hover:text-[#0B1F3B]/90"
         >
-          “True youth lives in a curious mind and an adventurous spirit.”
+          {{ 'aboutPage.philosophySec.quote' | translate }}
         </blockquote>
       </div>
 
@@ -37,43 +39,37 @@
         <p
           class="text-gray-600 hidden md:block transition-colors duration-300 hover:text-gray-900 leading-relaxed text-lg mb-6"
         >
-          We reject the idea of reducing a person to the number on their passport. Sixty is not the
-          end of the road—it is a new beginning, filled with opportunities for discovery, growth,
-          and unforgettable experiences.
+          {{ 'aboutPage.philosophySec.paragraph1Desktop' | translate }}
         </p>
 
         <p
           class="text-gray-600 md:hidden transition-colors duration-300 hover:text-gray-900 leading-relaxed text-lg mb-6"
         >
-          We believe age is just a number—60 is a new beginning full of discovery and growth.
+          {{ 'aboutPage.philosophySec.paragraph1Mobile' | translate }}
         </p>
 
         <p
           class="text-gray-600 hidden md:block transition-colors duration-300 hover:text-gray-900 leading-relaxed text-lg mb-6"
         >
-          We believe that true youth is not measured by age, but by the ability to remain curious,
-          open-minded, and eager to explore the world.
+          {{ 'aboutPage.philosophySec.paragraph2Desktop' | translate }}
         </p>
 
         <p
           class="text-gray-600 md:hidden transition-colors duration-300 hover:text-gray-900 leading-relaxed text-lg mb-6"
         >
-          True youth is about curiosity, openness, and a desire to explore the world.
+          {{ 'aboutPage.philosophySec.paragraph2Mobile' | translate }}
         </p>
 
         <p
           class="text-gray-600 md:block hidden transition-colors duration-300 hover:text-gray-900 leading-relaxed text-lg"
         >
-          At Young Over 60, every traveller has a story worth telling and every journey is a chance
-          to rediscover life. The world is far too beautiful to be viewed only from a window, and
-          your right to travel never expires.
+          {{ 'aboutPage.philosophySec.paragraph3Desktop' | translate }}
         </p>
 
         <p
           class="text-gray-600 block md:hidden transition-colors duration-300 hover:text-gray-900 leading-relaxed text-lg"
         >
-          At Young Over 60, every journey is a chance to rediscover life—your right to travel never
-          expires.
+          {{ 'aboutPage.philosophySec.paragraph3Mobile' | translate }}
         </p>
 
         <div
@@ -84,7 +80,7 @@
           ></span>
 
           <span class="relative">
-            Keep Exploring
+            {{ 'aboutPage.philosophySec.cta' | translate }}
             <span
               class="absolute left-0 -bottom-1 w-0 h-[1px] bg-[#d89d2e] transition-all duration-500 group-hover:w-full"
             ></span>

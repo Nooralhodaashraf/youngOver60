@@ -10,19 +10,20 @@
       <!-- Left Side -->
       <div>
         <span class="uppercase tracking-[4px] text-[#d89d2e] text-sm font-medium">
-          Newsletter
+          {{ 'destenationPage.newsletter.header.badge' | translate }}
         </span>
 
         <h2 class="mt-5 text-4xl md:text-5xl font-bold text-white leading-tight">
-          Stay Connected to
-          <span class="text-[#d89d2e] italic"> The Wonder </span>
+          {{ 'destenationPage.newsletter.header.title.line1' | translate }}
+          <span class="text-[#d89d2e] italic">
+            {{ 'destenationPage.newsletter.header.title.highlight' | translate }}
+          </span>
         </h2>
 
         <div class="w-24 h-1 bg-[#d89d2e] rounded-full my-8"></div>
 
         <p class="text-white/75 text-lg leading-relaxed max-w-xl">
-          Subscribe to receive seasonal itineraries, accessibility updates, travel inspiration, and
-          exclusive destination guides curated for travellers of all abilities.
+          {{ 'destenationPage.newsletter.header.description' | translate }}
         </p>
       </div>
 
@@ -33,7 +34,7 @@
           <div>
             <input
               type="email"
-              placeholder="Enter your email address"
+              [placeholder]="'destenationPage.newsletter.form.placeholder' | translate"
               class="w-full h-16 px-6 rounded-2xl bg-white text-gray-900 outline-none border-2 border-transparent focus:border-[#d89d2e] transition"
             />
           </div>
@@ -43,8 +44,7 @@
             <input type="checkbox" class="mt-1 w-5 h-5 accent-[#d89d2e]" />
 
             <span class="text-white/70 text-sm leading-relaxed">
-              I consent to receiving newsletters, travel updates, accessibility resources, and
-              promotional communications.
+              {{ 'destenationPage.newsletter.form.checkbox' | translate }}
             </span>
           </label>
 
@@ -53,7 +53,7 @@
             type="submit"
             class="w-full md:w-auto px-10 py-4 bg-[#d89d2e] text-white font-semibold rounded-full hover:scale-105 transition duration-300 shadow-xl"
           >
-            Subscribe Now
+            {{ 'destenationPage.newsletter.form.button' | translate }}
           </button>
         </form>
       </div>

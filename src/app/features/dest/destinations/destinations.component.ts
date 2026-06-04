@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-destinations',
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: './destinations.component.html',
   styleUrl: './destinations.component.css',
 })
