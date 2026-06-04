@@ -11,30 +11,24 @@ import { NotFoundComponent } from './features/not-found/not-found.component';
 import { MainLayoutComponent } from './layouts/main-layout/main-layout.component';
 
 export const routes: Routes = [
+  { path: '', redirectTo: 'destination', pathMatch: 'full' },
+
   {
-    path: '',
-    component: MainLayoutComponent,
-    children: [
-      { path: '', redirectTo: 'destination', pathMatch: 'full' },
+    path: 'destination',
+    component: DestComponent,
+    title: 'destenation',
+  },
 
-      {
-        path: 'destination',
-        component: DestComponent,
-        title: 'destenation',
-      },
-
-      { path: 'experience/:label', component: ExperianceComponent, title: 'experiance' },
-      { path: 'plan', component: PlanComponent, title: 'you plans' },
-      { path: 'about', component: AboutComponent, title: 'about' },
-      { path: 'medical', component: MedicalComponent, title: 'medical' },
-      { path: 'news', component: NewsComponent, title: 'news' },
-      { path: 'stories', component: StoriesComponent, title: 'stories' },
-      { path: 'podcast', component: PodcastComponent, title: 'podcast' },
-      {
-        path: '**',
-        component: NotFoundComponent,
-        title: 'not Found page',
-      },
-    ],
+  { path: 'experience/:label', component: ExperianceComponent, title: 'experiance' },
+  { path: 'plan', component: PlanComponent, title: 'you plans' },
+  { path: 'about', component: AboutComponent, title: 'about' },
+  { path: 'medical', component: MedicalComponent, title: 'medical' },
+  { path: 'news', component: NewsComponent, title: 'news' },
+  { path: 'stories', component: StoriesComponent, title: 'stories' },
+  { path: 'podcast', component: PodcastComponent, title: 'podcast' },
+  {
+    path: '**',
+    component: NotFoundComponent,
+    title: 'not Found page',
   },
 ];

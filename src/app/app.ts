@@ -1,18 +1,23 @@
-import { Component, inject, signal } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { MyTranslateService } from './core/service/my-translate.service';
 import { FooterComponent } from './layouts/footer/footer.component';
-import { MainLayoutComponent } from './layouts/main-layout/main-layout.component';
 import { NavbarComponent } from './layouts/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
-  imports: [MainLayoutComponent],
+  imports: [NavbarComponent, RouterOutlet, FooterComponent],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
-export class App {
+export class App implements OnInit {
+  pageReady = false;
+
+  ngOnInit() {
+    this.pageReady = true;
+  }
+
   protected readonly title = signal('youngOver60');
 
   private readonly translate = inject(TranslateService);
